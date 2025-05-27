@@ -50,7 +50,7 @@ export default function AdSense({
         ref={adRef}
         className="adsbygoogle"
         style={style}
-        data-ad-client="ca-pub-XXXXXXXXXXXXXXXX" // Substitua pelo seu ID de cliente
+        data-ad-client="ca-pub-8357117612559558" // Substitua pelo seu ID de cliente
         data-ad-slot={slot}
         data-ad-format={format}
         data-full-width-responsive={responsive ? "true" : "false"}
