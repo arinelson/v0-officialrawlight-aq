@@ -19,9 +19,8 @@ const postsData = {
       tags: ["prayer", "jesus", "faith"],
       readingTime: 12,
       content: `> Praying is an essential practice to strengthen your connection with God. Jesus left us a clear model of prayer in the Lord's Prayer.
-
-
----
+      
+      ---
 
 ![CULPA DE ABRAÃO ](public/aculpadeabraao.png )
 
