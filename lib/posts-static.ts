@@ -34,7 +34,11 @@ Abraham found himself caught between the two women he loved: Sarah, his legal wi
 
 
 Years later, something extraordinary happened. Even in her old age, Sarah became pregnant and gave birth to a son, Isaac. It was the fulfillment of God's original promise. The birth of Isaac brought joy and renewal to Abraham's family. However, Isaac's arrival also brought new conflicts. Ishmael, now older, began to mock Isaac. The rivalry between the two brothers grew, fueled by emotional tensions and differences in status within the household.
-The situation became so untenable that Sarah demanded that Ishmael and Hagar be sent back into the wilderness. Abraham, torn between his love for his two sons, followed God's guidance and allowed Ishmael and Hagar to leave. God reaffirmed his promise to Abraham, saying that he would take care of Ishmael and make him the father of a great nation. Thus, Ishmael grew up to become the ancestor of the Arabs, while Isaac became the ancestor of the Hebrews, the Israelites.
+The situation became so untenable that Sarah demanded that Ishmael and Hagar be sent back into the wilderness.
+
+> Abraham, torn between his love for his two sons, followed God's guidance and allowed Ishmael and Hagar to leave.
+
+God reaffirmed his promise to Abraham, saying that he would take care of Ishmael and make him the father of a great nation. Thus, Ishmael grew up to become the ancestor of the Arabs, while Isaac became the ancestor of the Hebrews, the Israelites.
 This initial division between the two brothers is seen as the beginning of a conflict that continues to this day. The descendants of Ishmael, represented by the Arab Muslims, and the descendants of Isaac, represented by the Jews, continue to be embroiled in disputes marked by hatred and rivalry. The conflict between Islam and Judaism is explicitly linked to the story of Ishmael and Isaac, symbolizing the perpetuation of cycles of pain and hurt through the generations.
 The story of Abraham, Ishmael, and Isaac serves as a powerful example of how decisions made outside of God’s specific plan can have profound and lasting consequences. The emotional trauma caused by rejection and rivalry has carried over centuries, perpetuating conflict between peoples and nations. It is a lesson in generational problems—cycles of pain and hurt that continue to echo through generations, reminding us of the importance of acting with faith and wisdom, even when human solutions seem tempting.
 
