@@ -20,7 +20,9 @@ const postsData = {
       readingTime: 12,
       content: `> Praying is an essential practice to strengthen your connection with God. Jesus left us a clear model of prayer in the Lord's Prayer.
 
+
 ---
+
 ![CULPA DE ABRAÃO ](/aculpadeabraao.png )
 
 ## Why Do Arabs and Jews Fight to This Day? The Biblical Story Behind the Conflict!
