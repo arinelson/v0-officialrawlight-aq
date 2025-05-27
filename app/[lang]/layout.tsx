@@ -109,6 +109,13 @@ export default async function RootLayout({
         ))}
         <link rel="alternate" href={`${baseUrl}/en`} hrefLang="x-default" />
 
+        {/* AdSense verification script */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8357117612559558"
+          crossOrigin="anonymous"
+        />
+
         {/* RSS feed link */}
         <link
           rel="alternate"
