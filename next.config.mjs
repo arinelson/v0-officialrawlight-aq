@@ -1,26 +1,31 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Configurações para Netlify
-  output: process.env.NETLIFY === 'true' ? "standalone" : undefined,
+  // Configuração específica para Netlify
+  output: process.env.NETLIFY === 'true' ? 'export' : undefined,
+  trailingSlash: true,
   
-  // Configurações gerais
+  // Configurações de imagem para export estático
   images: {
-    domains: ['localhost', 'officialrawlight.com'],
+    unoptimized: true,
+    domains: ['localhost', 'rawlight.netlify.app'],
     remotePatterns: [
       {
         protocol: 'https',
         hostname: '**',
       },
     ],
-    unoptimized: process.env.NETLIFY === 'true', // Unoptimized images for Netlify
   },
 
+  // Desabilitar otimizações que não funcionam com export
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
   },
+
+  // Configuração para export estático
+  distDir: process.env.NETLIFY === 'true' ? 'out' : '.next',
   
   // Configurações de segurança
   headers: async () => {
@@ -44,9 +49,6 @@ const nextConfig = {
       },
     ];
   },
-
-  // Configuração para tratar corretamente rotas dinâmicas durante a exportação
-  trailingSlash: false,
 }
 
 export default nextConfig;

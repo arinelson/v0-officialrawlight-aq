@@ -24,16 +24,9 @@ languages.forEach((lang) => {
     console.log(`Created directory for language: ${lang}`)
   }
 
-  // Check if posts exist
-  const files = fs.readdirSync(langDirectory)
-  const markdownFiles = files.filter((file) => file.endsWith(".md"))
-
-  if (markdownFiles.length === 0) {
-    console.log(`Creating sample posts for ${lang}`)
-    createSamplePosts(lang)
-  } else {
-    console.log(`${lang} already has ${markdownFiles.length} posts`)
-  }
+  // Always create posts to ensure they exist
+  console.log(`Creating sample posts for ${lang}`)
+  createSamplePosts(lang)
 })
 
 function createSamplePosts(lang) {
@@ -82,19 +75,19 @@ function getLocalizedTitles(lang) {
     pt: [
       {
         title: "Como Orar Como Jesus",
-        slug: "como-orar-como-jesus",
+        slug: "how-to-pray-like-jesus",
         tags: ["oração", "jesus", "fé"],
         excerpt: "Aprenda a orar como Jesus ensinou, com simplicidade e poder.",
       },
       {
         title: "A Importância da Leitura Bíblica",
-        slug: "importancia-da-leitura-biblica",
+        slug: "importance-of-bible-reading",
         tags: ["bíblia", "espiritualidade", "fé"],
         excerpt: "Descubra como a leitura bíblica pode transformar sua vida espiritual.",
       },
       {
         title: "Encontrando Paz em um Mundo Caótico",
-        slug: "encontrando-paz-em-um-mundo-caotico",
+        slug: "finding-peace-in-chaos",
         tags: ["paz", "atenção plena", "espiritualidade"],
         excerpt: "Estratégias práticas para encontrar paz interior no mundo agitado de hoje.",
       },
@@ -102,19 +95,19 @@ function getLocalizedTitles(lang) {
     es: [
       {
         title: "Cómo Orar Como Jesús",
-        slug: "como-orar-como-jesus",
+        slug: "how-to-pray-like-jesus",
         tags: ["oración", "jesús", "fe"],
         excerpt: "Aprende a orar como Jesús enseñó, con simplicidad y poder.",
       },
       {
         title: "La Importancia de la Lectura Bíblica",
-        slug: "importancia-de-la-lectura-biblica",
+        slug: "importance-of-bible-reading",
         tags: ["biblia", "espiritualidad", "fe"],
         excerpt: "Descubre cómo la lectura bíblica puede transformar tu vida espiritual.",
       },
       {
         title: "Encontrando Paz en un Mundo Caótico",
-        slug: "encontrando-paz-en-un-mundo-caotico",
+        slug: "finding-peace-in-chaos",
         tags: ["paz", "atención plena", "espiritualidad"],
         excerpt: "Estrategias prácticas para encontrar paz interior en el agitado mundo de hoy.",
       },
@@ -122,19 +115,19 @@ function getLocalizedTitles(lang) {
     de: [
       {
         title: "Wie man wie Jesus betet",
-        slug: "wie-man-wie-jesus-betet",
+        slug: "how-to-pray-like-jesus",
         tags: ["gebet", "jesus", "glaube"],
         excerpt: "Lernen Sie zu beten, wie Jesus es lehrte, mit Einfachheit und Kraft.",
       },
       {
         title: "Die Bedeutung des Bibellesens",
-        slug: "bedeutung-des-bibellesens",
+        slug: "importance-of-bible-reading",
         tags: ["bibel", "spiritualität", "glaube"],
         excerpt: "Entdecken Sie, wie Bibellesen Ihr spirituelles Leben verändern kann.",
       },
       {
         title: "Frieden finden in einer chaotischen Welt",
-        slug: "frieden-finden-in-einer-chaotischen-welt",
+        slug: "finding-peace-in-chaos",
         tags: ["frieden", "achtsamkeit", "spiritualität"],
         excerpt: "Praktische Strategien, um inneren Frieden in der hektischen Welt von heute zu finden.",
       },
@@ -142,19 +135,19 @@ function getLocalizedTitles(lang) {
     fr: [
       {
         title: "Comment prier comme Jésus",
-        slug: "comment-prier-comme-jesus",
+        slug: "how-to-pray-like-jesus",
         tags: ["prière", "jésus", "foi"],
         excerpt: "Apprenez à prier comme Jésus l'a enseigné, avec simplicité et puissance.",
       },
       {
         title: "L'importance de la lecture biblique",
-        slug: "importance-de-la-lecture-biblique",
+        slug: "importance-of-bible-reading",
         tags: ["bible", "spiritualité", "foi"],
         excerpt: "Découvrez comment la lecture biblique peut transformer votre vie spirituelle.",
       },
       {
         title: "Trouver la paix dans un monde chaotique",
-        slug: "trouver-la-paix-dans-un-monde-chaotique",
+        slug: "finding-peace-in-chaos",
         tags: ["paix", "pleine conscience", "spiritualité"],
         excerpt: "Stratégies pratiques pour trouver la paix intérieure dans le monde trépidant d'aujourd'hui.",
       },
@@ -162,19 +155,19 @@ function getLocalizedTitles(lang) {
     it: [
       {
         title: "Come pregare come Gesù",
-        slug: "come-pregare-come-gesu",
+        slug: "how-to-pray-like-jesus",
         tags: ["preghiera", "gesù", "fede"],
         excerpt: "Impara a pregare come ha insegnato Gesù, con semplicità e potenza.",
       },
       {
         title: "L'importanza della lettura biblica",
-        slug: "importanza-della-lettura-biblica",
+        slug: "importance-of-bible-reading",
         tags: ["bibbia", "spiritualità", "fede"],
         excerpt: "Scopri come la lettura biblica può trasformare la tua vita spirituale.",
       },
       {
         title: "Trovare pace in un mondo caotico",
-        slug: "trovare-pace-in-un-mondo-caotico",
+        slug: "finding-peace-in-chaos",
         tags: ["pace", "mindfulness", "spiritualità"],
         excerpt: "Strategie pratiche per trovare la pace interiore nel frenetico mondo di oggi.",
       },
@@ -182,19 +175,19 @@ function getLocalizedTitles(lang) {
     fil: [
       {
         title: "Paano Manalangin Tulad ni Hesus",
-        slug: "paano-manalangin-tulad-ni-hesus",
+        slug: "how-to-pray-like-jesus",
         tags: ["panalangin", "hesus", "pananampalataya"],
         excerpt: "Matuto kung paano manalangin tulad ng itinuro ni Hesus, nang may kasimplehan at kapangyarihan.",
       },
       {
         title: "Ang Kahalagahan ng Pagbabasa ng Bibliya",
-        slug: "kahalagahan-ng-pagbabasa-ng-bibliya",
+        slug: "importance-of-bible-reading",
         tags: ["bibliya", "espiritwalidad", "pananampalataya"],
-        excerpt: "Tuklasin kung paano mababago ng pagbabasa ng Bibliya ang iyong espirituwal na buhay.",
+        excerpt: "Tuklasin kung paano mababago ng pagbabasa ng Bibliya ang inyong espirituwal na buhay.",
       },
       {
         title: "Paghahanap ng Kapayapaan sa isang Magulo na Mundo",
-        slug: "paghahanap-ng-kapayapaan-sa-isang-magulo-na-mundo",
+        slug: "finding-peace-in-chaos",
         tags: ["kapayapaan", "mindfulness", "espiritwalidad"],
         excerpt: "Mga praktikal na estratehiya upang makahanap ng panloob na kapayapaan sa abalang mundo ngayon.",
       },

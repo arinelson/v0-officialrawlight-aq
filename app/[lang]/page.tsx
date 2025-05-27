@@ -1,6 +1,4 @@
 import { getDictionary } from "@/lib/dictionaries"
-import { getAllPosts } from "@/lib/posts"
-import { getTagsWithCount } from "@/lib/tags"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
@@ -13,10 +11,41 @@ import AdSense from "@/components/adsense"
 import OptimizedImage from "@/components/optimized-image"
 import { formatDate } from "@/lib/utils"
 
+// Mock posts data for static generation
+const mockPosts = [
+  {
+    slug: "how-to-pray-like-jesus",
+    title: "How to Pray Like Jesus",
+    date: "2024-01-15",
+    excerpt: "Learn to pray as Jesus taught, with simplicity and power.",
+    tags: ["prayer", "jesus", "faith"],
+    readingTime: 5,
+    content: "Praying is an essential practice to strengthen your connection with God...",
+  },
+  {
+    slug: "importance-of-bible-reading",
+    title: "The Importance of Bible Reading",
+    date: "2024-01-14",
+    excerpt: "Discover how Bible reading can transform your spiritual life.",
+    tags: ["bible", "spirituality", "faith"],
+    readingTime: 4,
+    content: "The Bible is an inexhaustible source of wisdom and guidance...",
+  },
+  {
+    slug: "finding-peace-in-chaos",
+    title: "Finding Peace in a Chaotic World",
+    date: "2024-01-13",
+    excerpt: "Practical strategies to find inner peace in today's hectic world.",
+    tags: ["peace", "mindfulness", "spirituality"],
+    readingTime: 6,
+    content: "In today's fast-paced world, finding peace can seem like an impossible task...",
+  },
+]
+
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   try {
     const dict = await getDictionary(params.lang)
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://officialrawlight.com"
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://rawlight.netlify.app"
 
     return {
       title: dict.site.name,
@@ -25,7 +54,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
       openGraph: {
         title: dict.site.name,
         description: dict.site.description,
-        url: `${baseUrl}/${params.lang}`,
+        url: `${baseUrl}/${params.lang}/`,
         siteName: dict.site.name,
         locale: params.lang,
         type: "website",
@@ -54,19 +83,11 @@ export async function generateMetadata({ params }: { params: { lang: string } })
 }
 
 export default async function Home({ params }: { params: { lang: string } }) {
-  let dict, allPosts, tagsWithCount
+  let dict
 
   try {
     console.log(`Loading home page for language: ${params.lang}`)
     dict = await getDictionary(params.lang)
-    allPosts = await getAllPosts(params.lang)
-    tagsWithCount = await getTagsWithCount(params.lang)
-
-    console.log(`Loaded ${allPosts.length} posts for ${params.lang}`)
-    console.log(
-      `Posts:`,
-      allPosts.map((p) => ({ slug: p.slug, title: p.title })),
-    )
   } catch (error) {
     console.error("Error loading home page data:", error)
     dict = {
@@ -87,21 +108,17 @@ export default async function Home({ params }: { params: { lang: string } }) {
         minutes: "min read",
       },
     }
-    allPosts = []
-    tagsWithCount = []
   }
 
-  // Get top 3 tags
-  const topTags = [...(tagsWithCount || [])]
-    .sort((a, b) => b.count - a.count)
-    .slice(0, 3)
-    .map((item) => item.tag)
+  // Use mock data for static generation
+  const allPosts = mockPosts
+  const topTags = ["prayer", "bible", "peace"]
 
   // Featured posts (latest 2)
   const featuredPosts = allPosts.slice(0, 2)
 
   // Recent posts (next 6 after featured)
-  const recentPosts = allPosts.slice(2, 8)
+  const recentPosts = allPosts.slice(0, 6)
 
   // Posts by category (top 3 tags)
   const postsByCategory = {}
@@ -119,12 +136,12 @@ export default async function Home({ params }: { params: { lang: string } }) {
         <p className="text-xl text-muted-foreground max-w-2xl mx-auto">{dict.home.subtitle}</p>
         <div className="flex justify-center gap-4 flex-wrap">
           <Button asChild size="lg" className="bg-blue-500 hover:bg-blue-600">
-            <Link href={`/${params.lang}/tags`}>
+            <Link href={`/${params.lang}/tags/`}>
               {dict.home.exploreButton} <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
           <Button variant="outline" size="lg" asChild>
-            <Link href={`/${params.lang}/about`}>{dict.home.aboutButton}</Link>
+            <Link href={`/${params.lang}/about/`}>{dict.home.aboutButton}</Link>
           </Button>
         </div>
       </section>
@@ -162,7 +179,7 @@ export default async function Home({ params }: { params: { lang: string } }) {
               </div>
 
               <Link
-                href={`/${params.lang}/posts/${featuredPosts[0].slug}`}
+                href={`/${params.lang}/posts/${featuredPosts[0].slug}/`}
                 className="inline-flex items-center gap-2 bg-white text-gray-900 px-6 py-3 rounded-lg font-semibold hover:bg-white/90 transition-colors w-fit group"
               >
                 {dict.post.readMore}
@@ -191,16 +208,6 @@ export default async function Home({ params }: { params: { lang: string } }) {
         </section>
       )}
 
-      {/* Post em Destaque (Featured Post) */}
-      {/*{featuredPosts.length > 0 && (*/}
-      {/*  <section>*/}
-      {/*    <h2 className="text-3xl font-bold mb-8">{dict.home.featuredPost}</h2>*/}
-      {/*    <div className="grid grid-cols-1 gap-8">*/}
-      {/*      <FeaturedPostCard post={featuredPosts[0]} lang={params.lang} dict={dict} />*/}
-      {/*    </div>*/}
-      {/*  </section>*/}
-      {/*)}*/}
-
       {/* AdSense Banner */}
       <LazyLoad>
         <div className="my-8">
@@ -213,7 +220,7 @@ export default async function Home({ params }: { params: { lang: string } }) {
         <section>
           <div className="flex items-center justify-between mb-8">
             <h2 className="text-3xl font-bold">{dict.home.latestPosts}</h2>
-            <Link href={`/${params.lang}/posts`} className="text-blue-500 flex items-center hover:underline">
+            <Link href={`/${params.lang}/posts/`} className="text-blue-500 flex items-center hover:underline">
               {dict.home.viewAll} <ArrowRight className="ml-1 h-4 w-4" />
             </Link>
           </div>
@@ -225,35 +232,10 @@ export default async function Home({ params }: { params: { lang: string } }) {
         </section>
       )}
 
-      {/* All Posts if no recent posts */}
-      {recentPosts.length === 0 && allPosts.length > 0 && (
-        <section>
-          <div className="flex items-center justify-between mb-8">
-            <h2 className="text-3xl font-bold">{dict.home.latestPosts}</h2>
-            <Link href={`/${params.lang}/posts`} className="text-blue-500 flex items-center hover:underline">
-              {dict.home.viewAll} <ArrowRight className="ml-1 h-4 w-4" />
-            </Link>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {allPosts.slice(0, 6).map((post) => (
-              <PostCard key={post.slug} post={post} lang={params.lang} dict={dict} />
-            ))}
-          </div>
-        </section>
-      )}
-
       {/* Posts by Category */}
       {topTags.map((tag) => (
         <CategorySection key={tag} title={tag} posts={postsByCategory[tag]} lang={params.lang} dict={dict} />
       ))}
-
-      {/* No Posts Message */}
-      {allPosts.length === 0 && (
-        <section className="text-center py-16">
-          <h2 className="text-2xl font-bold mb-4">No posts available yet</h2>
-          <p className="text-muted-foreground">Posts will be created automatically when the site loads.</p>
-        </section>
-      )}
 
       {/* AdSense Banner */}
       <LazyLoad>

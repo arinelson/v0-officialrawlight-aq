@@ -1,24 +1,65 @@
 [build]
   command = "npm run build"
-  publish = ".next"
+  publish = "out"
 
 [build.environment]
-  NEXT_PUBLIC_SITE_URL = "https://officialrawlight.com"
+  NEXT_PUBLIC_SITE_URL = "https://rawlight.netlify.app"
   NODE_VERSION = "18"
   NETLIFY = "true"
 
 # Redireciona todas as solicitações para o Next.js
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/next"
+  to = "/index.html"
   status = 200
+  conditions = {Role = ["admin"]}
 
-# Configuração para o Next.js no Netlify
-[functions]
-  directory = ".netlify/functions-internal"
+# Redirect para páginas de idioma
+[[redirects]]
+  from = "/"
+  to = "/en/"
+  status = 302
 
-[[plugins]]
-  package = "@netlify/plugin-nextjs"
+[[redirects]]
+  from = "/en"
+  to = "/en/"
+  status = 301
+
+[[redirects]]
+  from = "/pt"
+  to = "/pt/"
+  status = 301
+
+[[redirects]]
+  from = "/es"
+  to = "/es/"
+  status = 301
+
+[[redirects]]
+  from = "/de"
+  to = "/de/"
+  status = 301
+
+[[redirects]]
+  from = "/fr"
+  to = "/fr/"
+  status = 301
+
+[[redirects]]
+  from = "/it"
+  to = "/it/"
+  status = 301
+
+[[redirects]]
+  from = "/fil"
+  to = "/fil/"
+  status = 301
+
+# Fallback para todas as rotas
+[[redirects]]
+  from = "/*"
+  to = "/404.html"
+  status = 404
 
 # Configuração de cache para arquivos estáticos
 [[headers]]
@@ -32,11 +73,12 @@
     Cache-Control = "public, max-age=31536000, immutable"
 
 [[headers]]
-  for = "/_next/image*"
-  [headers.values]
-    Cache-Control = "public, max-age=31536000, immutable"
-
-[[headers]]
   for = "/images/*"
   [headers.values]
     Cache-Control = "public, max-age=31536000, immutable"
+
+# Headers para HTML
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
