@@ -96,7 +96,7 @@ Remember, Jesus said: "Peace I leave with you; my peace I give you." (John 14:27
   ],
   pt: [
     {
-      slug: "por-que-arabes-e-judeus-brigam-ate-hoje-a-historia-biblica-por-tras-do-conflito",
+      slug: "why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict",
       title: "Por Que Árabes e Judeus Brigam Até Hoje? A História Bíblica Por Trás do Conflito!",
       date: "2025-05-22",
       excerpt: "Descubra como a história bíblica de Abraão, Ismael e Isaque pode estar na origem de um dos conflitos mais antigos da humanidade — e como decisões antigas ainda ecoam até hoje.",
