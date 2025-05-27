@@ -140,8 +140,6 @@ As we look to Abraham’s story, we are reminded that even when we make mistakes
 
 ## 🎥 Video Suggestion
 
-
----
 😊
 
 Share this post with your friends and family!`,
