@@ -138,6 +138,8 @@ As we look to Abraham’s story, we are reminded that even when we make mistakes
 
 ---
 
+[![Thumbnail do Vídeo](https://i9.ytimg.com/vi/_twXZrjYIFo/mqdefault.jpg?v=6830974b&sqp=CPD61MEG&rs=AOn4CLCLS8Tx4qmzkuwaBdPZwIb32VvN6Q )](https://youtu.be/_twXZrjYIFo?si=t2aInrRqy2IUjXOQ )
+
 ## 🎥 Video Suggestion
 
 😊
