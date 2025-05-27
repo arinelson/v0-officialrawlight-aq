@@ -87,8 +87,8 @@ export default async function Home({ params }: { params: { lang: string } }) {
   // Featured posts (latest 2)
   const featuredPosts = allPosts.slice(0, 2)
 
-  // Recent posts (next 6 after featured)
-  const recentPosts = allPosts.slice(0, 6)
+  // Recent posts (next 4 after featured)
+  const recentPosts = allPosts.slice(0, 4)
 
   // Posts by category (top 3 tags)
   const postsByCategory = {}
@@ -196,7 +196,13 @@ export default async function Home({ params }: { params: { lang: string } }) {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {recentPosts.map((post) => (
-              <PostCard key={post.slug} post={post} lang={params.lang} dict={dict} />
+              <PostCard
+                key={post.slug}
+                post={post}
+                lang={params.lang}
+                dict={dict}
+                imageUrl={`/placeholder.svg?height=400&width=600&text=${encodeURIComponent(post.title)}&bg=${post.slug.includes("prayer") ? "blue" : post.slug.includes("bible") ? "green" : "purple"}`}
+              />
             ))}
           </div>
         </section>
