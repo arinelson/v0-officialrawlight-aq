@@ -23,7 +23,7 @@ export default function FeaturedPostCard({ post, lang, dict }: FeaturedPostCardP
       <div className="md:flex h-full">
         <div className="relative w-full md:w-2/5 h-60 md:h-auto">
           <OptimizedImage
-            src={`/placeholder.svg?height=600&width=800&text=${encodeURIComponent(post.title)}`}
+            src={`/aculpadeabraao.png?height=600&width=800&text=${encodeURIComponent(post.title)}`}
             alt={post.title}
             fill
             priority
