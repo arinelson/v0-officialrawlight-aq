@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next"
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const baseUrl = "https://officialrawlight.com"
+  const baseUrl = "https://www.rawlight.space/"
   const languages = ["en", "pt", "es", "de", "fr", "it", "fil"]
 
   // Base URLs for each language
@@ -13,7 +13,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   }))
 
   // Known post slugs
-  const knownSlugs = ["how-to-pray-like-jesus", "importance-of-bible-reading", "finding-peace-in-chaos"]
+  const knownSlugs = ["how-to-pray-like-jesus", "importance-of-bible-reading", "finding-peace-in-chaos", "por-que-arabes-e-judeus-brigam-ate-hoje-a-historia-biblica-por-tras-do-conflito"]
 
   // Generate post URLs for all languages
   const postUrls = languages.flatMap((lang) =>
