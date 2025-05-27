@@ -289,8 +289,8 @@ function getLocalizedTitles(lang: string) {
   const titlesByLang = {
     en: [
       {
-        title: "How to Pray Like Jesus",
-        slug: "how-to-pray-like-jesus",
+        title: "Why Do Arabs and Jews Fight to This Day? The Biblical Story Behind the Conflict!",
+        slug: "why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict",
         tags: ["prayer", "jesus", "faith"],
         excerpt: "Learn to pray as Jesus taught, with simplicity and power.",
       },
@@ -309,8 +309,8 @@ function getLocalizedTitles(lang: string) {
     ],
     pt: [
       {
-        title: "Como Orar Como Jesus",
-        slug: "how-to-pray-like-jesus",
+        title: "Por Que Árabes e Judeus Brigam Até Hoje? A História Bíblica Por Trás do Conflito!",
+        slug: "por-que-arabes-e-judeus-brigam-ate-hoje-a-historia-biblica-por-tras-do-conflito",
         tags: ["oração", "jesus", "fé"],
         excerpt: "Aprenda a orar como Jesus ensinou, com simplicidade e poder.",
       },
