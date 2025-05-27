@@ -23,7 +23,7 @@ const postsData = {
 
 ---
 
-![CULPA DE ABRAÃO ](/aculpadeabraao.png )
+![CULPA DE ABRAÃO ](public/aculpadeabraao.png )
 
 ## Why Do Arabs and Jews Fight to This Day? The Biblical Story Behind the Conflict!
 
