@@ -5,7 +5,7 @@ export async function GET(request: Request, { params }: { params: { lang: string
     const lang = params.lang
 
     // Base URL for the site
-    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://officialrawlight.com"
+    const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://www.rawlight.space/"
 
     // Mock posts data for RSS
     const posts = [
