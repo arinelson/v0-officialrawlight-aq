@@ -20,19 +20,12 @@ const postsData = {
       readingTime: 12,
       content: `Praying is an essential practice to strengthen your connection with God. Jesus left us a clear model of prayer in the Lord's Prayer.
 
-
+      
 # Why Do Arabs and Jews Fight to This Day? The Biblical Story Behind the Conflict!
 
-1. Long ago, in an ancient world where divine promises shaped people’s destinies, God made a covenant with a man named **Abraham**. This covenant was not just for him, but for all generations to come. God told Abraham that his wife, Sarah, would bear a son, and through that son blessed nations would arise. This promise was grand, full of hope and spiritual significance. However, there was one major problem: Sarah was barren. In those days, the inability to bear children was seen as a personal, social, and even religious tragedy, since descendants were considered the continuation of the family inheritance and legacy.
+Long ago, in an ancient world where divine promises shaped people’s destinies, God made a covenant with a man named **Abraham**. This covenant was not just for him, but for all generations to come. God told Abraham that his wife, Sarah, would bear a son, and through that son blessed nations would arise. This promise was grand, full of hope and spiritual significance. However, there was one major problem: Sarah was barren. In those days, the inability to bear children was seen as a personal, social, and even religious tragedy, since descendants were considered the continuation of the family inheritance and legacy.
 
-To deal with situations like this, there were ancient laws documented in texts such as the Tablets of Nuzi, Eshnunna, and Alalakh. These laws regulated social and family practices, including solutions for childless couples. If a woman was unable to conceive, the husband could have a child with a servant or slave in the household, provided the wife agreed. This child would be legally recognized as the wife's child, functioning almost like a modern-day **"surrogate mother."** While this was an accepted and culturally valid practice, it carried complex emotional and social implications.
-
-
-Sarah, unable to conceive, suggested that Abraham have a child with Hagar, her Egyptian servant. Hagar had probably been acquired by Abraham during his stay in Egypt, when they faced hardships and were welcomed by Pharaoh. Sarah, perhaps moved by a desire to see God's promise fulfilled or by social pressure to secure an heir, took the initiative to offer her servant to her husband. Abraham, perhaps anxious or influenced by the pressure of the moment, accepted the suggestion. He sought a human solution before fully trusting God's promise.
-
-
-—
-
+To deal with situations like this, there were ancient laws documented in texts such as the Tablets of Nuzi, Eshnunna, and Alalakh. These laws regulated social and family practices, including solutions for childless couples. If a woman was unable to conceive, the husband could have a child with a servant or slave in the household, provided the wife agreed. This child would be legally recognized as the wife's child, functioning almost like a modern-day **"surrogate mother."** While this was an accepted and culturally valid practice, it carried complex emotional and social implications. Sarah, unable to conceive, suggested that Abraham have a child with Hagar, her Egyptian servant. Hagar had probably been acquired by Abraham during his stay in Egypt, when they faced hardships and were welcomed by Pharaoh. Sarah, perhaps moved by a desire to see God's promise fulfilled or by social pressure to secure an heir, took the initiative to offer her servant to her husband. Abraham, perhaps anxious or influenced by the pressure of the moment, accepted the suggestion. He sought a human solution before fully trusting God's promise.
 
 This decision by Abraham is seen by scholars as a mistake, a *“failure.”* Although it was legally and culturally accepted at the time, it reveals a failure of faith. Abraham acted as any normal man would, trying to solve the problem on his own. He forgot, even if momentarily, what God had said. This act symbolizes something deeper: the temptation to make decisions based on our human logic, rather than waiting for divine guidance.
 
