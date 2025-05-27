@@ -2,16 +2,6 @@
 
 import { useState, useEffect } from "react"
 
-const dictionaries = {
-  en: () => import("../lib/dictionaries/en.json").then((module) => module.default),
-  pt: () => import("../lib/dictionaries/pt.json").then((module) => module.default),
-  es: () => import("../lib/dictionaries/es.json").then((module) => module.default),
-  de: () => import("../lib/dictionaries/de.json").then((module) => module.default),
-  fr: () => import("../lib/dictionaries/fr.json").then((module) => module.default),
-  it: () => import("../lib/dictionaries/it.json").then((module) => module.default),
-  fil: () => import("../lib/dictionaries/fil.json").then((module) => module.default),
-}
-
 export function useDictionary(locale: string) {
   const [dict, setDict] = useState<any>(null)
   const [loading, setLoading] = useState(true)
@@ -20,14 +10,23 @@ export function useDictionary(locale: string) {
     const loadDictionary = async () => {
       try {
         setLoading(true)
-        const dictionary = dictionaries[locale as keyof typeof dictionaries] || dictionaries.en
-        const result = await dictionary()
-        setDict(result)
+        // Dynamic import for client-side loading
+        const dictionary = await import(`../lib/dictionaries/${locale}.json`)
+        setDict(dictionary.default)
       } catch (error) {
         console.error("Failed to load dictionary:", error)
         // Fallback to English
-        const fallback = await dictionaries.en()
-        setDict(fallback)
+        try {
+          const fallback = await import("../lib/dictionaries/en.json")
+          setDict(fallback.default)
+        } catch (fallbackError) {
+          console.error("Failed to load fallback dictionary:", fallbackError)
+          // Set minimal fallback
+          setDict({
+            site: { name: "LUZ CRUA" },
+            nav: { home: "Home", posts: "Posts", about: "About", contact: "Contact" },
+          })
+        }
       } finally {
         setLoading(false)
       }
@@ -36,5 +35,5 @@ export function useDictionary(locale: string) {
     loadDictionary()
   }, [locale])
 
-  return { dict, loading }
+  return dict
 }

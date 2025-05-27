@@ -1,17 +1,15 @@
 "use client"
 
 import type React from "react"
-
-import { useState } from "react"
-import { useDictionary } from "@/hooks/use-dictionary"
+import { useState, useEffect } from "react"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Button } from "@/components/ui/button"
 import { useToast } from "@/hooks/use-toast"
 
 export default function ContactPage({ params }: { params: { lang: string } }) {
-  const dict = useDictionary(params.lang)
   const { toast } = useToast()
+  const [dict, setDict] = useState<any>(null)
 
   const [formData, setFormData] = useState({
     name: "",
@@ -21,6 +19,39 @@ export default function ContactPage({ params }: { params: { lang: string } }) {
   })
 
   const [isSubmitting, setIsSubmitting] = useState(false)
+
+  useEffect(() => {
+    async function loadDictionary() {
+      try {
+        const dictModule = await import(`@/lib/dictionaries/${params.lang}.json`)
+        setDict(dictModule.default)
+      } catch (error) {
+        console.error("Error loading dictionary:", error)
+        // Fallback dictionary
+        setDict({
+          contact: {
+            title: "Contact Us",
+            subtitle: "Get in touch with us",
+            nameLabel: "Name",
+            emailLabel: "Email",
+            subjectLabel: "Subject",
+            messageLabel: "Message",
+            submit: "Send Message",
+            submitting: "Sending...",
+            successTitle: "Message sent!",
+            successMessage: "We will get back to you soon.",
+            errorTitle: "Error",
+            errorMessage: "There was an error sending your message. Please try again.",
+            alternativeTitle: "Other Ways to Reach Us",
+            emailTitle: "Email",
+            socialTitle: "Social Media",
+          },
+        })
+      }
+    }
+
+    loadDictionary()
+  }, [params.lang])
 
   function handleChange(e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) {
     const { name, value } = e.target
@@ -57,6 +88,10 @@ export default function ContactPage({ params }: { params: { lang: string } }) {
     } finally {
       setIsSubmitting(false)
     }
+  }
+
+  if (!dict) {
+    return <div className="text-center py-8">Loading...</div>
   }
 
   return (

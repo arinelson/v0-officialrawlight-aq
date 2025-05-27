@@ -1,5 +1,3 @@
-import { getAllPosts } from "@/lib/posts"
-import { getAllTags } from "@/lib/tags"
 import type { MetadataRoute } from "next"
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
@@ -14,41 +12,31 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     priority: 1,
   }))
 
-  // Collect all posts for all languages
-  const allPostsPromises = languages.map(async (lang) => {
-    const posts = await getAllPosts(lang)
-    return posts.map((post) => ({
-      url: `${baseUrl}/${lang}/posts/${post.slug}`,
-      lastModified: new Date(post.date),
-      changeFrequency: "weekly" as const,
-      priority: 0.8,
-    }))
-  })
+  // Known post slugs
+  const knownSlugs = ["how-to-pray-like-jesus", "importance-of-bible-reading", "finding-peace-in-chaos"]
 
-  // Collect all WebStories for all languages
-  const allWebStoriesPromises = languages.map(async (lang) => {
-    const posts = await getAllPosts(lang)
-    return posts.map((post) => ({
-      url: `${baseUrl}/${lang}/webstories/${post.slug}`,
-      lastModified: new Date(post.date),
-      changeFrequency: "weekly" as const,
-      priority: 0.7,
-    }))
-  })
-
-  // Collect all tags for all languages
-  const allTagsPromises = languages.map(async (lang) => {
-    const tags = await getAllTags(lang)
-    return tags.map((tag) => ({
-      url: `${baseUrl}/${lang}/tags/${encodeURIComponent(tag)}`,
+  // Generate post URLs for all languages
+  const postUrls = languages.flatMap((lang) =>
+    knownSlugs.map((slug) => ({
+      url: `${baseUrl}/${lang}/posts/${slug}`,
       lastModified: new Date(),
       changeFrequency: "weekly" as const,
-      priority: 0.5,
-    }))
-  })
+      priority: 0.8,
+    })),
+  )
+
+  // Generate WebStory URLs for all languages
+  const webStoryUrls = languages.flatMap((lang) =>
+    knownSlugs.map((slug) => ({
+      url: `${baseUrl}/${lang}/webstories/${slug}`,
+      lastModified: new Date(),
+      changeFrequency: "weekly" as const,
+      priority: 0.7,
+    })),
+  )
 
   // Static pages for each language
-  const staticPagesPromises = languages.map((lang) => {
+  const staticPageUrls = languages.flatMap((lang) => {
     const pages = [
       { path: "/about", priority: 0.7 },
       { path: "/contact", priority: 0.7 },
@@ -68,18 +56,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }))
   })
 
-  // Resolve all promises
-  const allPostsResults = await Promise.all(allPostsPromises)
-  const allWebStoriesResults = await Promise.all(allWebStoriesPromises)
-  const allTagsResults = await Promise.all(allTagsPromises)
-  const staticPagesResults = await Promise.all(staticPagesPromises)
-
-  // Flatten arrays
-  const postUrls = allPostsResults.flat()
-  const webStoryUrls = allWebStoriesResults.flat()
-  const tagUrls = allTagsResults.flat()
-  const staticPageUrls = staticPagesResults.flat()
-
   return [
     {
       url: baseUrl,
@@ -90,7 +66,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...languageUrls,
     ...postUrls,
     ...webStoryUrls,
-    ...tagUrls,
     ...staticPageUrls,
   ]
 }

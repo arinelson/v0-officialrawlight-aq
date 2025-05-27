@@ -1,38 +1,49 @@
 "use client"
 
 import { useState, useEffect } from "react"
-import { getPostBySlug } from "@/lib/posts"
-import { getDictionary } from "@/lib/dictionaries"
-import { generateWebStoryFromPost } from "@/lib/web-stories"
 import { notFound } from "next/navigation"
 import WebStory from "@/components/web-story"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { generateWebStoryFromPost } from "@/lib/web-stories"
+
+interface Post {
+  slug: string
+  title: string
+  date: string
+  excerpt: string
+  content: string
+  tags: string[]
+  readingTime: number
+}
 
 interface WebStoryPageClientProps {
   params: { lang: string; slug: string }
 }
 
 export default function WebStoryPageClient({ params }: WebStoryPageClientProps) {
-  const [post, setPost] = useState(null)
-  const [dict, setDict] = useState(null)
+  const [post, setPost] = useState<Post | null>(null)
+  const [dict, setDict] = useState<any>(null)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
     async function loadData() {
       try {
-        const [postData, dictData] = await Promise.all([
-          getPostBySlug(params.lang, params.slug),
-          getDictionary(params.lang),
-        ])
+        // Load dictionary
+        const dictModule = await import(`@/lib/dictionaries/${params.lang}.json`)
+        setDict(dictModule.default)
 
-        if (!postData) {
+        // Load post data via API
+        const response = await fetch(`/api/${params.lang}/posts`)
+        const posts = await response.json()
+        const foundPost = posts.find((p: Post) => p.slug === params.slug)
+
+        if (!foundPost) {
           notFound()
           return
         }
 
-        setPost(postData)
-        setDict(dictData)
+        setPost(foundPost)
       } catch (error) {
         console.error("Error loading WebStory data:", error)
         notFound()

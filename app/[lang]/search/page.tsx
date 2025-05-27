@@ -1,14 +1,12 @@
 "use client"
 
 import type React from "react"
-
 import { useState, useEffect } from "react"
 import { useSearchParams } from "next/navigation"
-import { useDictionary } from "@/hooks/use-dictionary"
-import PostCard from "@/components/post-card"
-import { Search } from "lucide-react"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
+import PostCard from "@/components/post-card"
+import { Search } from "lucide-react"
 
 interface Post {
   slug: string
@@ -20,7 +18,6 @@ interface Post {
 }
 
 export default function SearchPage({ params }: { params: { lang: string } }) {
-  const dict = useDictionary(params.lang)
   const searchParams = useSearchParams()
   const initialQuery = searchParams.get("q") || ""
 
@@ -28,10 +25,16 @@ export default function SearchPage({ params }: { params: { lang: string } }) {
   const [posts, setPosts] = useState<Post[]>([])
   const [results, setResults] = useState<Post[]>([])
   const [isLoading, setIsLoading] = useState(true)
+  const [dict, setDict] = useState<any>(null)
 
   useEffect(() => {
-    async function fetchPosts() {
+    async function loadData() {
       try {
+        // Load dictionary
+        const dictModule = await import(`@/lib/dictionaries/${params.lang}.json`)
+        setDict(dictModule.default)
+
+        // Load posts
         const response = await fetch(`/api/${params.lang}/posts`)
         const data = await response.json()
         setPosts(data)
@@ -41,12 +44,23 @@ export default function SearchPage({ params }: { params: { lang: string } }) {
           searchPosts(initialQuery, data)
         }
       } catch (error) {
-        console.error("Error fetching posts:", error)
+        console.error("Error loading data:", error)
+        // Fallback dictionary
+        setDict({
+          search: {
+            title: "Search",
+            description: "Find posts by title, content, or tags",
+            placeholder: "Search posts...",
+            button: "Search",
+            loading: "Loading...",
+            noResults: "No posts found matching your search.",
+          },
+        })
         setIsLoading(false)
       }
     }
 
-    fetchPosts()
+    loadData()
   }, [params.lang, initialQuery])
 
   function searchPosts(searchQuery: string, postList = posts) {

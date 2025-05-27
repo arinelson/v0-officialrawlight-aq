@@ -1,5 +1,3 @@
-import type { Post } from "./posts"
-
 export interface WebStorySlide {
   id: string
   type: "cover" | "content" | "end"
@@ -8,6 +6,16 @@ export interface WebStorySlide {
   text?: string
   image: string
   backgroundColor?: string
+}
+
+interface Post {
+  slug: string
+  title: string
+  date: string
+  excerpt: string
+  content: string
+  tags: string[]
+  readingTime: number
 }
 
 export function generateWebStoryFromPost(post: Post): WebStorySlide[] {
