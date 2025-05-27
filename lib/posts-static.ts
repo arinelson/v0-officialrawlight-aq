@@ -12,20 +12,111 @@ export interface Post {
 const postsData = {
   en: [
     {
-      slug: "how-to-pray-like-jesus",
-      title: "How to Pray Like Jesus",
-      date: "2024-01-15",
+      slug: "why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict",
+      title: "Why Do Arabs and Jews Fight to This Day? The Biblical Story Behind the Conflict!",
+      date: "2025-05-22",
       excerpt: "Learn to pray as Jesus taught, with simplicity and power.",
       tags: ["prayer", "jesus", "faith"],
-      readingTime: 5,
+      readingTime: 12,
       content: `Praying is an essential practice to strengthen your connection with God. Jesus left us a clear model of prayer in the Lord's Prayer.
 
-## How to Pray Like Jesus
+# Por Que Árabes e Judeus Brigam Até Hoje? A História Bíblica Por Trás do Conflito
 
-1. **Start with Gratitude:** Thank God for daily blessings.
-2. **Be Sincere:** Talk to God as you would talk to a close friend.
-3. **Ask with Faith:** Trust that God will hear and answer your prayers.
+## O Pacto Divino com Abraão
 
+Há muito tempo, em um mundo antigo onde promessas divinas moldavam os destinos das pessoas, Deus fez uma aliança com um homem chamado **Abraão**. Essa aliança não era apenas para ele, mas para todas as gerações vindouras.
+
+> "Deus disse a Abraão: 'Certamente trarei Sara, tua esposa, e ela terá um filho.' E disse mais: 'Rei de nações sairá de ti.'" — Gênesis 17:16
+
+Essa promessa era grandiosa, cheia de esperança e significado espiritual. No entanto, havia um grande problema: **Sara era estéril**. Naquela época, a incapacidade de ter filhos era vista como uma tragédia pessoal, social e até religiosa, já que os descendentes eram considerados a continuidade da herança familiar.
+
+## A Solução Humana: Hagar e Ismael
+
+Diante dessa situação, Abraão e Sara recorreram a uma prática comum na cultura da época: segundo leis antigas, como as **Tábuas de Nuzi**, **Esnuna** e **Alalakh**, se uma mulher não podia ter filhos, seu marido poderia ter um filho com uma serva ou escrava da casa, desde que a esposa concordasse.
+
+Assim, **Sara ofereceu sua serva egípcia, Hagar**, a Abraão. Ele aceitou, e nasceu **Ismael**.
+
+### Um Erro Compreensível, Mas Marcante
+
+Embora essa decisão fosse legal e culturalmente válida, muitos estudiosos veem isso como um erro de fé:
+
+> “A escolha de Abraão revela uma falha momentânea de confiança em Deus. Em vez de esperar pela promessa divina, ele buscou resolver o problema por meios humanos.”
+
+Esse ato simboliza algo profundo: a tentação de tomar decisões com base na lógica humana, em vez de aguardar pela orientação divina.
+
+## Os Filhos da Promessa e da Pressa
+
+Anos depois, contra todas as expectativas, **Sara engravidou** e deu à luz **Isaque**, o filho da promessa. Esse nascimento trouxe alegria e renovação à família de Abraão.
+
+No entanto, também trouxe novos conflitos.
+
+### A Rivalidade Começa
+
+Com o nascimento de Isaque, a tensão entre **Ismael e Isaque** cresceu. Relatos bíblicos indicam que **Ismael zombava de Isaque**, gerando descontentamento em Sara.
+
+> “Vi que a filha de Agar, a egípcia, que te deu à luz, zomba de meu filho.” — Gênesis 21:9
+
+Por fim, Sara exigiu que Hagar e Ismael fossem expulsos. Abraão, embora relutante, obedeceu após receber orientação direta de Deus.
+
+## As Promessas de Deus
+
+Mesmo em meio ao abandono humano, **Deus não abandonou Ismael**. Ele apareceu a Hagar no deserto e lhe fez uma promessa:
+
+> “Não temas, pois Deus ouviu a voz do menino... Levanta-o e segura-o pela mão, porque dele farei uma grande nação.” — Gênesis 21:17-18
+
+Assim, Ismael tornou-se ancestral dos **árabes**, enquanto Isaque foi o pai dos **hebreus**, mais especificamente dos **judeus**.
+
+## A Raiz de um Conflito que Perdura
+
+Essa divisão inicial entre os dois irmãos é frequentemente apontada como a raiz simbólica do **conflito entre árabes e judeus** que persiste até hoje.
+
+- **Ismael** é visto como o ancestral dos povos muçulmanos.
+- **Isaque** é o patriarca do povo hebreu e do judaísmo.
+
+A rivalidade emocional, social e espiritual entre os irmãos ecoou através das gerações, formando ciclos de dor, rejeição e orgulho que ainda impactam o mundo atual.
+
+## Lições Profundas para Nossas Vidas
+
+A história de Abraão, Ismael e Isaque nos convida a refletir profundamente sobre nossas próprias escolhas:
+
+- **Quantas vezes buscamos soluções rápidas, humanas, quando deveríamos confiar em Deus?**
+- **Quantas decisões bem-intencionadas geram consequências inesperadas que afetam não só nós, mas gerações futuras?**
+
+Esta é uma história sobre **fé, falhas, promessas e redenção**.
+
+### Círculos de Dor e Esperança
+
+A rejeição sentida por Ismael e o privilégio vivido por Isaque criaram identidades distintas que, ao longo dos séculos, foram moldadas por traumas, histórias e culturas diferentes. Essa dualidade reflete a complexidade das relações humanas e os impactos duradouros das escolhas que fazemos.
+
+## Reconciliação: Há Esperança?
+
+Apesar do conflito inicial, há indícios de uma possível reconciliação entre os irmãos:
+
+> “Depois disso, Abraão morreu e foi sepultado por seus filhos Ismael e Isaque.” — Gênesis 25:9
+
+Este momento sugere que **ainda há espaço para união, perdão e paz**, mesmo diante de feridas profundas.
+
+---
+
+## Reflexão Final
+
+A história de Abraão nos desafia a pensar sobre o papel que desempenhamos em nossas famílias e comunidades. Cada decisão que tomamos pode impactar gerações. Podemos aprender com Abraão que, mesmo quando erramos, **Deus pode redimir nossas escolhas e transformar falhas em crescimento**.
+
+Mas também somos lembrados de que devemos agir com sabedoria, confiando no plano divino, evitando soluções humanas que possam causar danos maiores.
+
+---
+
+## Veja Mais Sobre o Tema
+
+Para entender melhor o contexto histórico e teológico por trás do conflito entre árabes e judeus, assista ao vídeo abaixo:
+
+[![Clique aqui para assistir](https://img.youtube.com/vi/EXOcEVZJccs/hqdefault.jpg)](https://www.youtube.com/watch?v=EXOcEVZJccs)
+
+*Vídeo: "A História Bíblica de Ismael e Isaque – Origem do Conflito Árabe-Israelense"*
+
+---
+
+Se quiser, posso converter esse conteúdo em HTML ou preparar uma versão pronta para WordPress também. Deseja isso? 😊
 Share this post with your friends and family!`,
     },
     {
