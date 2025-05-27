@@ -57,8 +57,7 @@ By observing the trajectory of Ishmael and Isaac, we can see how pride, rejectio
 The story of Abraham, Ishmael, and Isaac also teaches us about the importance of forgiveness and reconciliation. Although the Bible does not explicitly mention a reconciliation between the two brothers, there are hints that they met later in life. When Abraham died, both Ishmael and Isaac came together to bury their father. This moment of unity, however brief, suggests that it is possible to overcome past hurts and seek peace.
 
 
-Ultimately, this story challenges us to think about the role we play in our families and communities. Every decision we make, every word we say, can have a lasting impact on future generations. As we look to Abraham’s story, we are reminded that even when we make mistakes, God can redeem our choices and turn our failures into opportunities for growth. But we are also called to act wisely, trusting in God’s plan and avoiding human solutions that can do more harm than good.,
-      
+Ultimately, this story challenges us to think about the role we play in our families and communities. Every decision we make, every word we say, can have a lasting impact on future generations. As we look to Abraham’s story, we are reminded that even when we make mistakes, God can redeem our choices and turn our failures into opportunities for growth. But we are also called to act wisely, trusting in God’s plan and avoiding human solutions that can do more harm than good.`,   
     },
     {
       slug: "importance-of-bible-reading",
