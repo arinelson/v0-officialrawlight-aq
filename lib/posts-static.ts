@@ -102,11 +102,13 @@ Remember, Jesus said: "Peace I leave with you; my peace I give you." (John 14:27
       excerpt: "Descubra como a história bíblica de Abraão, Ismael e Isaque pode estar na origem de um dos conflitos mais antigos da humanidade — e como decisões antigas ainda ecoam até hoje.",
       tags: ["curiosidade", "história bíblica", "fé"],
       readingTime: 12,
-      content: 
+      content: `
       
-      `# Por Que Árabes e Judeus Brigam Até Hoje?
+      # Por Que Árabes e Judeus Brigam Até Hoje?
       ## A História Bíblica por Trás do Conflito
-      Há muito tempo, em um mundo antigo onde as promessas divinas moldavam o destino das pessoas, Deus fez uma aliança com um homem chamado Abraão. Essa aliança não era apenas para ele, mas para todas as gerações que viriam depois. Deus disse a Abraão que sua esposa, Sara, teria um filho, e através desse filho surgiriam nações abençoadas. Essa promessa era grandiosa, cheia de esperança e significado espiritual. No entanto, havia um grande problema: Sara era estéril. Naquela época, a incapacidade de gerar filhos era vista como uma tragédia pessoal, social e até mesmo religiosa, pois os descendentes eram considerados a continuação da herança e do legado familiar.
+      Há muito tempo, em um mundo antigo onde as promessas divinas moldavam o destino das pessoas,
+      
+      Deus fez uma aliança com um homem chamado Abraão. Essa aliança não era apenas para ele, mas para todas as gerações que viriam depois. Deus disse a Abraão que sua esposa, Sara, teria um filho, e através desse filho surgiriam nações abençoadas. Essa promessa era grandiosa, cheia de esperança e significado espiritual. No entanto, havia um grande problema: Sara era estéril. Naquela época, a incapacidade de gerar filhos era vista como uma tragédia pessoal, social e até mesmo religiosa, pois os descendentes eram considerados a continuação da herança e do legado familiar.
 Para lidar com situações como essa, existiam leis antigas documentadas em textos como as Tábuas de Nuzi, Eshnunna e Alalakh.
 
 Essas leis regulamentavam práticas sociais e familiares, incluindo soluções para casais sem filhos. Se uma mulher não podia conceber, o marido poderia ter um filho com uma serva ou escrava da casa, desde que a esposa concordasse. Esse filho seria legalmente reconhecido como filho da esposa, funcionando quase como uma "barriga de aluguel" moderna. Embora fosse uma prática aceita e culturalmente válida, ela carregava implicações emocionais e sociais complexas.
