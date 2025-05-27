@@ -30,7 +30,7 @@ export default function AdSense({
       script.src = "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
       script.async = true
       script.crossOrigin = "anonymous"
-      script.dataset.adClient = "ca-pub-XXXXXXXXXXXXXXXX" // Substitua pelo seu ID de cliente
+      script.dataset.adClient = "ca-pub-8357117612559558" // Substitua pelo seu ID de cliente
       document.head.appendChild(script)
     }
 
