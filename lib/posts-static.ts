@@ -25,7 +25,6 @@ const postsData = {
 
 Long ago, in an ancient world where divine promises shaped people’s destinies, God made a covenant with a man named **Abraham**. This covenant was not just for him, but for all generations to come. God told Abraham that his wife, Sarah, would bear a son, and through that son blessed nations would arise. This promise was grand, full of hope and spiritual significance. However, there was one major problem: Sarah was barren. In those days, the inability to bear children was seen as a personal, social, and even religious tragedy, since descendants were considered the continuation of the family inheritance and legacy.
 
-
 To deal with situations like this, there were ancient laws documented in texts such as the Tablets of Nuzi, Eshnunna, and Alalakh. These laws regulated social and family practices, including solutions for childless couples. If a woman was unable to conceive, the husband could have a child with a servant or slave in the household, provided the wife agreed. This child would be legally recognized as the wife's child, functioning almost like a modern-day **"surrogate mother."** While this was an accepted and culturally valid practice, it carried complex emotional and social implications.
 
 
@@ -36,7 +35,6 @@ Sarah, unable to conceive, suggested that Abraham have a child with Hagar, her E
 
 
 This decision by Abraham is seen by scholars as a mistake, a *“failure.”* Although it was legally and culturally accepted at the time, it reveals a failure of faith. Abraham acted as any normal man would, trying to solve the problem on his own. He forgot, even if momentarily, what God had said. This act symbolizes something deeper: the temptation to make decisions based on our human logic, rather than waiting for divine guidance.
-
 
 Abraham had a son with Hagar, and this son was named Ishmael. At first, it seemed like everything was settled. Abraham finally had an heir, and God’s promise seemed to be fulfilled. But complications soon arose. Hagar, upon giving birth, began to feel superior. She began to treat Sarah with contempt, creating an atmosphere of tension and rivalry within the household. Sarah, who had suggested the union between Abraham and Hagar, now felt betrayed and furious. She blamed Abraham for the situation and demanded that he fix the problem.
 Abraham found himself caught between the two women he loved: Sarah, his legal wife, and Hagar, the mother of his son. The situation reached an untenable point, and Sarah insisted that Hagar be sent into the wilderness with Ishmael. Abraham, though reluctant, agreed. In the wilderness, Hagar and Ishmael were on the brink of death, but God heard the boy’s cries. He appeared to Hagar and made an extraordinary promise: Ishmael would become the father of a great nation. Thus, God honored his mercy, even in the face of human wrong choices.
