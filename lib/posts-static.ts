@@ -20,7 +20,9 @@ const postsData = {
       readingTime: 12,
       content: `> Praying is an essential practice to strengthen your connection with God. Jesus left us a clear model of prayer in the Lord's Prayer.
 
----      
+---
+![CULPA DE ABRAÃO ](/aculpadeabraao.png )
+
 ## Why Do Arabs and Jews Fight to This Day? The Biblical Story Behind the Conflict!
 
 Long ago, in an ancient world where divine promises shaped people’s destinies, God made a covenant with a man named **Abraham**. This covenant was not just for him, but for all generations to come. God told Abraham that his wife, Sarah, would bear a son, and through that son blessed nations would arise. This promise was grand, full of hope and spiritual significance. However, there was one major problem: Sarah was barren. In those days, the inability to bear children was seen as a personal, social, and even religious tragedy, since descendants were considered the continuation of the family inheritance and legacy.
