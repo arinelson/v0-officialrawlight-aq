@@ -1,5 +1,5 @@
 import { getDictionary } from "@/lib/dictionaries"
-import { getAllPosts } from "@/lib/posts"
+import { getAllPosts } from "@/lib/posts-static"
 import PostCard from "@/components/post-card"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import type { Metadata } from "next"

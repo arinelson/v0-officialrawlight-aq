@@ -27,6 +27,27 @@ const nextConfig = {
   // Configuração para export estático
   distDir: process.env.NETLIFY === 'true' ? 'out' : '.next',
   
+  // Webpack configuration to handle module resolution
+  webpack: (config, { isServer }) => {
+    // Handle module resolution issues
+    config.resolve.fallback = {
+      ...config.resolve.fallback,
+      fs: false,
+      path: false,
+      os: false,
+    }
+    
+    // Exclude server-only modules from client bundle
+    if (!isServer) {
+      config.resolve.alias = {
+        ...config.resolve.alias,
+        'server-only': false,
+      }
+    }
+    
+    return config
+  },
+  
   // Configurações de segurança
   headers: async () => {
     return [

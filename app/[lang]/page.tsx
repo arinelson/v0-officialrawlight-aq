@@ -1,4 +1,5 @@
 import { getDictionary } from "@/lib/dictionaries"
+import { getAllPosts } from "@/lib/posts-static"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
@@ -10,37 +11,6 @@ import LazyLoad from "@/components/lazy-load"
 import AdSense from "@/components/adsense"
 import OptimizedImage from "@/components/optimized-image"
 import { formatDate } from "@/lib/utils"
-
-// Mock posts data for static generation
-const mockPosts = [
-  {
-    slug: "how-to-pray-like-jesus",
-    title: "How to Pray Like Jesus",
-    date: "2024-01-15",
-    excerpt: "Learn to pray as Jesus taught, with simplicity and power.",
-    tags: ["prayer", "jesus", "faith"],
-    readingTime: 5,
-    content: "Praying is an essential practice to strengthen your connection with God...",
-  },
-  {
-    slug: "importance-of-bible-reading",
-    title: "The Importance of Bible Reading",
-    date: "2024-01-14",
-    excerpt: "Discover how Bible reading can transform your spiritual life.",
-    tags: ["bible", "spirituality", "faith"],
-    readingTime: 4,
-    content: "The Bible is an inexhaustible source of wisdom and guidance...",
-  },
-  {
-    slug: "finding-peace-in-chaos",
-    title: "Finding Peace in a Chaotic World",
-    date: "2024-01-13",
-    excerpt: "Practical strategies to find inner peace in today's hectic world.",
-    tags: ["peace", "mindfulness", "spirituality"],
-    readingTime: 6,
-    content: "In today's fast-paced world, finding peace can seem like an impossible task...",
-  },
-]
 
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   try {
@@ -60,7 +30,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
         type: "website",
         images: [
           {
-            url: `${baseUrl}/api/og?title=${encodeURIComponent(dict.site.name)}&lang=${params.lang}`,
+            url: `${baseUrl}/placeholder.svg?height=630&width=1200&text=${encodeURIComponent(dict.site.name)}`,
             width: 1200,
             height: 630,
             alt: dict.site.name,
@@ -71,7 +41,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
         card: "summary_large_image",
         title: dict.site.name,
         description: dict.site.description,
-        images: [`${baseUrl}/api/og?title=${encodeURIComponent(dict.site.name)}&lang=${params.lang}`],
+        images: [`${baseUrl}/placeholder.svg?height=630&width=1200&text=${encodeURIComponent(dict.site.name)}`],
       },
     }
   } catch (error) {
@@ -110,8 +80,8 @@ export default async function Home({ params }: { params: { lang: string } }) {
     }
   }
 
-  // Use mock data for static generation
-  const allPosts = mockPosts
+  // Use static data
+  const allPosts = await getAllPosts(params.lang)
   const topTags = ["prayer", "bible", "peace"]
 
   // Featured posts (latest 2)

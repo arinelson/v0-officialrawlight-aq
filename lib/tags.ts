@@ -1,4 +1,4 @@
-import { getAllPosts } from "./posts"
+import { getAllPosts } from "./posts-static"
 
 export async function getAllTags(lang: string): Promise<string[]> {
   const posts = await getAllPosts(lang)

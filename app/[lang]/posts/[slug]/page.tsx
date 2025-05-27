@@ -1,5 +1,5 @@
 import { getDictionary } from "@/lib/dictionaries"
-import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/posts"
+import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/posts-static"
 import { formatDate } from "@/lib/utils"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
@@ -16,7 +16,7 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const post = await getPostBySlug(params.lang, params.slug)
   const dict = await getDictionary(params.lang)
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://officialrawlight.com"
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://rawlight.netlify.app"
 
   if (!post) {
     return {}
@@ -33,10 +33,10 @@ export async function generateMetadata({
       publishedTime: post.date,
       authors: ["LUZ CRUA"],
       tags: post.tags,
-      url: `${baseUrl}/${params.lang}/posts/${params.slug}`,
+      url: `${baseUrl}/${params.lang}/posts/${params.slug}/`,
       images: [
         {
-          url: `${baseUrl}/api/og?title=${encodeURIComponent(post.title)}&lang=${params.lang}`,
+          url: `${baseUrl}/placeholder.svg?height=630&width=1200&text=${encodeURIComponent(post.title)}`,
           width: 1200,
           height: 630,
           alt: post.title,
@@ -48,13 +48,10 @@ export async function generateMetadata({
       card: "summary_large_image",
       title: post.title,
       description: post.excerpt,
-      images: [`${baseUrl}/api/og?title=${encodeURIComponent(post.title)}&lang=${params.lang}`],
+      images: [`${baseUrl}/placeholder.svg?height=630&width=1200&text=${encodeURIComponent(post.title)}`],
     },
     alternates: {
-      canonical: `${baseUrl}/${params.lang}/posts/${params.slug}`,
-      types: {
-        "application/rss+xml": `${baseUrl}/rss/${params.lang}.xml`,
-      },
+      canonical: `${baseUrl}/${params.lang}/posts/${params.slug}/`,
     },
   }
 }
@@ -82,14 +79,14 @@ export async function generateStaticParams() {
 export default async function PostPage({ params }: { params: { lang: string; slug: string } }) {
   const dict = await getDictionary(params.lang)
   const post = await getPostBySlug(params.lang, params.slug)
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://officialrawlight.com"
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://rawlight.netlify.app"
 
   if (!post) {
     notFound()
   }
 
   const relatedPosts = await getRelatedPosts(params.lang, post.slug, post.tags, 2)
-  const postUrl = `${baseUrl}/${params.lang}/posts/${post.slug}`
+  const postUrl = `${baseUrl}/${params.lang}/posts/${post.slug}/`
 
   return (
     <article className="max-w-3xl mx-auto">
@@ -102,8 +99,6 @@ export default async function PostPage({ params }: { params: { lang: string; slu
           </div>
         </div>
         <TagList tags={post.tags} lang={params.lang} />
-
-        {/* Featured image with proper alt text */}
       </div>
 
       {/* Featured image with proper alt text */}

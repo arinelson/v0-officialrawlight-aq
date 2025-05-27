@@ -1,4 +1,5 @@
-import "server-only"
+// Remove server-only import for static export
+// import "server-only"
 
 const dictionaries = {
   en: () => import("./dictionaries/en.json").then((module) => module.default),
