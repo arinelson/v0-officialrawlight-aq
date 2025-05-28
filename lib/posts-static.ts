@@ -12,7 +12,7 @@ export interface Post {
 const postsData = {
   en: [
     {
-      slug: "abrahams-fault",
+      slug: "why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict",
       title: "Why Do Arabs and Jews Fight to This Day? The Biblical Story Behind the Conflict!",
       date: "2024-01-15",
       excerpt:
@@ -166,7 +166,7 @@ const postsData = {
   ],
   pt: [
     {
-      slug: "culpa-de-abraao",
+      slug: "why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict",
       title: "Por Que Árabes e Judeus Brigam Até Hoje? A História Bíblica por Trás do Conflito",
       date: "2024-01-15",
       excerpt:
