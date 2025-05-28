@@ -1,5 +1,4 @@
 import Link from "next/link"
-import { formatDate } from "@/lib/utils"
 import { Card, CardContent, CardFooter, CardHeader } from "@/components/ui/card"
 import TagList from "@/components/tag-list"
 import OptimizedImage from "@/components/optimized-image"
@@ -17,12 +16,40 @@ interface PostCardProps {
   dict: any
 }
 
+function formatDate(dateString: string, locale: string): string {
+  const date = new Date(dateString)
+  return date.toLocaleDateString(locale === "pt" ? "pt-BR" : locale, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  })
+}
+
+function getPostThumbnail(slug: string, lang: string): string {
+  // Se for o post sobre Abraão, usar thumbnail específico
+  if (slug.includes("why-do-arabs-and-jews-fight") || slug.includes("abraao") || slug.includes("conflict")) {
+    switch (lang) {
+      case "pt":
+        return "/thumbnails/thumbnail-pt.png"
+      case "es":
+        return "/thumbnails/thumbnail-es.png"
+      case "en":
+        return "/thumbnails/thumbnail-en.png"
+      default:
+        return "/thumbnails/thumbnail-default.png"
+    }
+  }
+
+  // Para outros posts, usar thumbnail padrão
+  return "/thumbnails/thumbnail-default.png"
+}
+
 export default function PostCard({ post, lang, dict }: PostCardProps) {
   return (
     <Card className="flex flex-col h-full overflow-hidden border-0 shadow-sm hover:shadow-md transition-shadow">
       <div className="relative w-full h-40 overflow-hidden">
         <OptimizedImage
-          src={`/aculpadeabraao.png?height=300&width=500&text=${encodeURIComponent(post.title)}`}
+          src={getPostThumbnail(post.slug, lang)}
           alt={post.title}
           fill
           className="object-cover"

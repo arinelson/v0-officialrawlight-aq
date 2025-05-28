@@ -10,7 +10,16 @@ import NewsletterSignup from "@/components/newsletter-signup"
 import LazyLoad from "@/components/lazy-load"
 import AdSense from "@/components/adsense"
 import OptimizedImage from "@/components/optimized-image"
-import { formatDate } from "@/lib/utils"
+
+// Função para formatar data
+function formatDate(dateString: string, locale: string): string {
+  const date = new Date(dateString)
+  return date.toLocaleDateString(locale === "pt" ? "pt-BR" : locale, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  })
+}
 
 export async function generateMetadata({ params }: { params: { lang: string } }): Promise<Metadata> {
   try {
@@ -30,7 +39,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
         type: "website",
         images: [
           {
-            url: `${baseUrl}/placeholder.svg?height=630&width=1200&text=${encodeURIComponent(dict.site.name)}`,
+            url: `${baseUrl}/thumbnails/thumbnail-${params.lang}.png`,
             width: 1200,
             height: 630,
             alt: dict.site.name,
@@ -41,7 +50,7 @@ export async function generateMetadata({ params }: { params: { lang: string } })
         card: "summary_large_image",
         title: dict.site.name,
         description: dict.site.description,
-        images: [`${baseUrl}/placeholder.svg?height=630&width=1200&text=${encodeURIComponent(dict.site.name)}`],
+        images: [`${baseUrl}/thumbnails/thumbnail-${params.lang}.png`],
       },
     }
   } catch (error) {
@@ -52,7 +61,8 @@ export async function generateMetadata({ params }: { params: { lang: string } })
   }
 }
 
-export default async function Home({ params }: { params: { lang: string } }) {
+const Page = async ({ params }: { params: { lang: string } }) => {
+  const { lang } = params
   let dict
 
   try {
@@ -161,7 +171,7 @@ export default async function Home({ params }: { params: { lang: string } }) {
             <div className="relative">
               <div className="aspect-[4/3] rounded-xl overflow-hidden bg-white/10 backdrop-blur-sm">
                 <OptimizedImage
-                  src={`/placeholder.svg?height=600&width=800&text=${encodeURIComponent(featuredPosts[0].title)}`}
+                  src={`/thumbnails/thumbnail-${params.lang}.png`}
                   alt={featuredPosts[0].title}
                   fill
                   className="object-cover"
@@ -196,13 +206,7 @@ export default async function Home({ params }: { params: { lang: string } }) {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {recentPosts.map((post) => (
-              <PostCard
-                key={post.slug}
-                post={post}
-                lang={params.lang}
-                dict={dict}
-                imageUrl={`/placeholder.svg?height=400&width=600&text=${encodeURIComponent(post.title)}&bg=${post.slug.includes("prayer") ? "blue" : post.slug.includes("bible") ? "green" : "purple"}`}
-              />
+              <PostCard key={post.slug} post={post} lang={params.lang} dict={dict} />
             ))}
           </div>
         </section>
@@ -225,3 +229,5 @@ export default async function Home({ params }: { params: { lang: string } }) {
     </div>
   )
 }
+
+export default Page

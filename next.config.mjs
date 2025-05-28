@@ -1,75 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Configuração específica para Netlify
-  output: process.env.NETLIFY === 'true' ? 'export' : undefined,
-  trailingSlash: true,
-  
-  // Configurações de imagem para export estático
-  images: {
-    unoptimized: true,
-    domains: ['localhost', 'rawlight.netlify.app'],
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: '**',
-      },
-    ],
-  },
-
-  // Desabilitar otimizações que não funcionam com export
   eslint: {
     ignoreDuringBuilds: true,
   },
   typescript: {
     ignoreBuildErrors: true,
   },
-
-  // Configuração para export estático
-  distDir: process.env.NETLIFY === 'true' ? 'out' : '.next',
-  
-  // Webpack configuration to handle module resolution
-  webpack: (config, { isServer }) => {
-    // Handle module resolution issues
-    config.resolve.fallback = {
-      ...config.resolve.fallback,
-      fs: false,
-      path: false,
-      os: false,
-    }
-    
-    // Exclude server-only modules from client bundle
-    if (!isServer) {
-      config.resolve.alias = {
-        ...config.resolve.alias,
-        'server-only': false,
-      }
-    }
-    
-    return config
-  },
-  
-  // Configurações de segurança
-  headers: async () => {
-    return [
-      {
-        source: '/(.*)',
-        headers: [
-          {
-            key: 'X-Content-Type-Options',
-            value: 'nosniff',
-          },
-          {
-            key: 'X-Frame-Options',
-            value: 'DENY',
-          },
-          {
-            key: 'X-XSS-Protection',
-            value: '1; mode=block',
-          },
-        ],
-      },
-    ];
+  images: {
+    unoptimized: true,
   },
 }
 
-export default nextConfig;
+export default nextConfig

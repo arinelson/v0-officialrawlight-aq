@@ -12,421 +12,357 @@ export interface Post {
 const postsData = {
   en: [
     {
-      slug: "why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict",
+      slug: "abrahams-fault",
       title: "Why Do Arabs and Jews Fight to This Day? The Biblical Story Behind the Conflict!",
-      date: "2025-05-22",
+      date: "2024-01-15",
+      excerpt:
+        "Learn about the biblical origins of the Arab-Jewish conflict, tracing back to Abraham's decisions and their lasting consequences.",
+      tags: ["bible", "history", "conflict"],
+      readingTime: 5,
+      content: `<blockquote>
+<p>Long ago, in an ancient world where divine promises shaped people's destinies, God made a covenant with a man named Abraham.</p>
+</blockquote>
+
+<hr>
+
+<img src="/thumbnails/thumbnail-en.png" alt="ABRAHAM'S FAULT" style="width: 100%; height: auto;">
+
+<h2>Why Do Arabs and Jews Fight to This Day? The Biblical Story Behind the Conflict!</h2>
+
+<p>Long ago, in an ancient world where divine promises shaped people's destinies, <strong>God made a covenant with a man named Abraham</strong>. This covenant was not just for him, but for all generations to come. God told Abraham that his wife, Sarah, would bear a son, and through that son blessed nations would arise.</p>
+
+<p>This promise was grand, full of hope and spiritual significance. However, there was one major problem: <em>Sarah was barren</em>. In those days, the inability to bear children was seen as a personal, social, and even religious tragedy, since descendants were considered the continuation of the family inheritance and legacy.</p>
+
+<h3>Ancient Laws and Human Solutions</h3>
+
+<p>To deal with situations like this, there were ancient laws documented in texts such as the <strong>Tablets of Nuzi, Eshnunna, and Alalakh</strong>. These laws regulated social and family practices, including solutions for childless couples.</p>
+
+<p>If a woman was unable to conceive, the husband could have a child with a servant or slave in the household, provided the wife agreed. This child would be legally recognized as the wife's child, functioning almost like a modern-day <strong>"surrogate mother."</strong></p>
+
+<h3>Sarah and Abraham's Decision</h3>
+
+<p>Sarah, unable to conceive, suggested that Abraham have a child with <strong>Hagar, her Egyptian servant</strong>. Hagar had probably been acquired by Abraham during his stay in Egypt, when they faced hardships and were welcomed by Pharaoh.</p>
+
+<p>Sarah, perhaps moved by a desire to see God's promise fulfilled or by social pressure to secure an heir, took the initiative to offer her servant to her husband. Abraham, perhaps anxious or influenced by the pressure of the moment, accepted the suggestion.</p>
+
+<blockquote>
+<p>Abraham sought a human solution before fully trusting God's promise.</p>
+</blockquote>
+
+<h3>The Birth of Ishmael and Its Consequences</h3>
+
+<p>Abraham had a son with Hagar, and this son was named <strong>Ishmael</strong>. At first, it seemed like everything was settled. Abraham finally had an heir, and God's promise seemed to be fulfilled.</p>
+
+<p>But complications soon arose. Hagar, upon giving birth, began to feel superior. She began to treat Sarah with contempt, creating an atmosphere of tension and rivalry within the household.</p>
+
+<h3>The Fulfillment of the Original Promise</h3>
+
+<p>Years later, something extraordinary happened. Even in her old age, <strong>Sarah became pregnant and gave birth to a son, Isaac</strong>. It was the fulfillment of God's original promise. The birth of Isaac brought joy and renewal to Abraham's family.</p>
+
+<p>However, Isaac's arrival also brought new conflicts. Ishmael, now older, began to mock Isaac. The rivalry between the two brothers grew, fueled by emotional tensions and differences in status within the household.</p>
+
+<h3>The Separation and Eternal Consequences</h3>
+
+<p>The situation became so untenable that Sarah demanded that Ishmael and Hagar be sent back into the wilderness. Abraham, torn between his love for his two sons, followed God's guidance and allowed Ishmael and Hagar to leave.</p>
+
+<p>God reaffirmed his promise to Abraham, saying that he would take care of Ishmael and make him the father of a great nation. Thus:</p>
+
+<ul>
+<li><strong>Ishmael</strong> grew up to become the ancestor of the <em>Arabs</em></li>
+<li><strong>Isaac</strong> became the ancestor of the <em>Hebrews, the Israelites</em></li>
+</ul>
+
+<h3>The Conflict That Continues Today</h3>
+
+<p>This initial division between the two brothers is seen as the beginning of a conflict that continues to this day. The descendants of Ishmael, represented by the Arab Muslims, and the descendants of Isaac, represented by the Jews, continue to be embroiled in disputes marked by hatred and rivalry.</p>
+
+<p>The conflict between Islam and Judaism is explicitly linked to the story of Ishmael and Isaac, symbolizing the perpetuation of cycles of pain and hurt through the generations.</p>
+
+<h3>Lessons for Our Lives</h3>
+
+<p>The story of Abraham, Ishmael, and Isaac serves as a powerful example of how decisions made outside of God's specific plan can have profound and lasting consequences.</p>
+
+<p>It invites us to reflect on our own lives:</p>
+
+<ul>
+<li>How often do we seek quick, human solutions to problems that could be solved with patience and faith?</li>
+<li>How often do our decisions, even well-intentioned ones, end up generating unintended consequences?</li>
+<li>How can we break cycles of pain and hurt in our families and communities?</li>
+</ul>
+
+<p>The story teaches us that the mistakes made by our ancestors – or by ourselves – can leave deep scars, but it also shows us that <strong>God is merciful</strong> and can transform even the most difficult situations into blessings.</p>
+
+<a href="https://youtu.be/_twXZrjYIFo?si=t2aInrRqy2IUjXOQ" target="_blank">
+  <img src="/thumbnails/thumbnail-en.png" alt="Video Thumbnail" style="width: 100%; height: auto; border-radius: 8px;">
+</a>
+
+<p><strong>Share this post with your friends and family!</strong></p>`,
+    },
+    {
+      slug: "how-to-pray-like-jesus",
+      title: "How to Pray Like Jesus",
+      date: "2024-01-14",
       excerpt: "Learn to pray as Jesus taught, with simplicity and power.",
       tags: ["prayer", "jesus", "faith"],
-      readingTime: 12,
-      content: `> Praying is an essential practice to strengthen your connection with God. Jesus left us a clear model of prayer in the Lord's Prayer.
-      
-      ---
+      readingTime: 5,
+      content: `<h2>How to Pray Like Jesus</h2>
 
-![CULPA DE ABRAÃO ](public/aculpadeabraao.png )
+<p>Praying is an essential practice to strengthen your connection with God. Jesus left us a clear model of prayer in the Lord's Prayer.</p>
 
-## Why Do Arabs and Jews Fight to This Day? The Biblical Story Behind the Conflict!
+<h3>Steps to Pray Like Jesus</h3>
 
-Long ago, in an ancient world where divine promises shaped people’s destinies, God made a covenant with a man named **Abraham**. This covenant was not just for him, but for all generations to come. God told Abraham that his wife, Sarah, would bear a son, and through that son blessed nations would arise. This promise was grand, full of hope and spiritual significance. However, there was one major problem: Sarah was barren. In those days, the inability to bear children was seen as a personal, social, and even religious tragedy, since descendants were considered the continuation of the family inheritance and legacy.
+<ol>
+<li><strong>Start with Gratitude:</strong> Thank God for daily blessings.</li>
+<li><strong>Be Sincere:</strong> Talk to God as you would talk to a close friend.</li>
+<li><strong>Ask with Faith:</strong> Trust that God will hear and answer your prayers.</li>
+</ol>
 
-To deal with situations like this, there were ancient laws documented in texts such as the Tablets of Nuzi, Eshnunna, and Alalakh. These laws regulated social and family practices, including solutions for childless couples. If a woman was unable to conceive, the husband could have a child with a servant or slave in the household, provided the wife agreed. This child would be legally recognized as the wife's child, functioning almost like a modern-day **"surrogate mother."** While this was an accepted and culturally valid practice, it carried complex emotional and social implications. Sarah, unable to conceive, suggested that Abraham have a child with Hagar, her Egyptian servant. Hagar had probably been acquired by Abraham during his stay in Egypt, when they faced hardships and were welcomed by Pharaoh. Sarah, perhaps moved by a desire to see God's promise fulfilled or by social pressure to secure an heir, took the initiative to offer her servant to her husband. Abraham, perhaps anxious or influenced by the pressure of the moment, accepted the suggestion. He sought a human solution before fully trusting God's promise.
-
-This decision by Abraham is seen by scholars as a mistake, a *“failure.”* Although it was legally and culturally accepted at the time, it reveals a failure of faith. Abraham acted as any normal man would, trying to solve the problem on his own. He forgot, even if momentarily, what God had said. This act symbolizes something deeper: the temptation to make decisions based on our human logic, rather than waiting for divine guidance.
-
-Abraham had a son with Hagar, and this son was named Ishmael. At first, it seemed like everything was settled. Abraham finally had an heir, and God’s promise seemed to be fulfilled. But complications soon arose. Hagar, upon giving birth, began to feel superior. She began to treat Sarah with contempt, creating an atmosphere of tension and rivalry within the household. Sarah, who had suggested the union between Abraham and Hagar, now felt betrayed and furious. She blamed Abraham for the situation and demanded that he fix the problem.
-Abraham found himself caught between the two women he loved: Sarah, his legal wife, and Hagar, the mother of his son. The situation reached an untenable point, and Sarah insisted that Hagar be sent into the wilderness with Ishmael. Abraham, though reluctant, agreed. In the wilderness, Hagar and Ishmael were on the brink of death, but God heard the boy’s cries. He appeared to Hagar and made an extraordinary promise: Ishmael would become the father of a great nation. Thus, God honored his mercy, even in the face of human wrong choices.
-
-***
-
-Years later, something extraordinary happened. Even in her old age, Sarah became pregnant and gave birth to a son, Isaac. It was the fulfillment of God's original promise. The birth of Isaac brought joy and renewal to Abraham's family. However, Isaac's arrival also brought new conflicts. Ishmael, now older, began to mock Isaac. The rivalry between the two brothers grew, fueled by emotional tensions and differences in status within the household.
-The situation became so untenable that Sarah demanded that Ishmael and Hagar be sent back into the wilderness.
-
-> Abraham, torn between his love for his two sons, followed God's guidance and allowed Ishmael and Hagar to leave.
-
-God reaffirmed his promise to Abraham, saying that he would take care of Ishmael and make him the father of a great nation. Thus, Ishmael grew up to become the ancestor of the Arabs, while Isaac became the ancestor of the Hebrews, the Israelites.
-This initial division between the two brothers is seen as the beginning of a conflict that continues to this day. The descendants of Ishmael, represented by the Arab Muslims, and the descendants of Isaac, represented by the Jews, continue to be embroiled in disputes marked by hatred and rivalry. The conflict between Islam and Judaism is explicitly linked to the story of Ishmael and Isaac, symbolizing the perpetuation of cycles of pain and hurt through the generations.
-The story of Abraham, Ishmael, and Isaac serves as a powerful example of how decisions made outside of God’s specific plan can have profound and lasting consequences. The emotional trauma caused by rejection and rivalry has carried over centuries, perpetuating conflict between peoples and nations. It is a lesson in generational problems—cycles of pain and hurt that continue to echo through generations, reminding us of the importance of acting with faith and wisdom, even when human solutions seem tempting.
-
-
-—
-
-
-
-But there is something even deeper in this story. It invites us to reflect on our own lives. How often do we seek quick, human solutions to problems that could be solved with patience and faith? How often do our decisions, even well-intentioned ones, end up generating unintended consequences that affect not only us, but also future generations? The story of Abraham teaches us that the mistakes made by our ancestors – or by ourselves – can leave deep scars, but it also shows us that God is merciful and can transform even the most difficult situations into blessings.
-By observing the trajectory of Ishmael and Isaac, we can see how pride, rejection and rivalry create cycles of pain that perpetuate themselves for centuries. Ishmael, despite being loved by God, grew up with the trauma of being rejected by his father and sent into the desert. This feeling of abandonment echoed in his descendants, contributing to the formation of an identity that often opposed Isaac's descendants. On the other hand, Isaac, the son of promise, grew up surrounded by privileges, but he also carried the responsibility of continuing the lineage chosen by God. This duality between the two brothers reflects the complexities of human relationships and the lasting impacts of the choices we make.
-The story of Abraham, Ishmael, and Isaac also teaches us about the importance of forgiveness and reconciliation. Although the Bible does not explicitly mention a reconciliation between the two brothers, there are hints that they met later in life. When Abraham died, both Ishmael and Isaac came together to bury their father. This moment of unity, however brief, suggests that it is possible to overcome past hurts and seek peace.
-
-[![Thumbnail do vídeo](public/aculpadeabraao.png )](https://youtu.be/_twXZrjYIFo?si=t2aInrRqy2IUjXOQ )
-
-Ultimately, this story challenges us to think about the role we play in our families and communities. Every decision we make, every word we say, can have a lasting impact on future generations. As we look to Abraham’s story, we are reminded that even when we make mistakes, God can redeem our choices and turn our failures into opportunities for growth. But we are also called to act wisely, trusting in God’s plan and avoiding human solutions that can do more harm than good.`,   
+<p><strong>Share this post with your friends and family!</strong></p>`,
     },
     {
       slug: "importance-of-bible-reading",
       title: "The Importance of Bible Reading",
-      date: "2024-01-14",
+      date: "2024-01-13",
       excerpt: "Discover how Bible reading can transform your spiritual life.",
       tags: ["bible", "spirituality", "faith"],
       readingTime: 4,
-      content: `The Bible is an inexhaustible source of wisdom and guidance.
+      content: `<h2>The Importance of Bible Reading</h2>
 
-## Tips for Better Bible Reading
+<p>The Bible is an inexhaustible source of wisdom and guidance.</p>
 
-1. **Establish a Routine:** Read the Bible daily, even if it's just a few verses.
-2. **Reflection:** Meditate on the meaning of the texts.
-3. **Practical Application:** Try to apply the teachings in your daily life.
+<h3>Tips for Better Bible Reading</h3>
 
-Share this post with your friends and family!`,
+<ol>
+<li><strong>Establish a Routine:</strong> Read the Bible daily, even if it's just a few verses.</li>
+<li><strong>Reflection:</strong> Meditate on the meaning of the texts.</li>
+<li><strong>Practical Application:</strong> Try to apply the teachings in your daily life.</li>
+</ol>
+
+<p><strong>Share this post with your friends and family!</strong></p>`,
     },
     {
       slug: "finding-peace-in-chaos",
       title: "Finding Peace in a Chaotic World",
-      date: "2024-01-13",
+      date: "2024-01-12",
       excerpt: "Practical strategies to find inner peace in today's hectic world.",
       tags: ["peace", "mindfulness", "spirituality"],
       readingTime: 6,
-      content: `In today's fast-paced world, finding peace can seem like an impossible task.
+      content: `<h2>Finding Peace in a Chaotic World</h2>
 
-## Finding Inner Peace
+<p>In today's fast-paced world, finding peace can seem like an impossible task.</p>
 
-1. **Daily Prayer:** Set aside time each day for quiet prayer and reflection.
-2. **Scripture Meditation:** Focus on verses about peace and God's promises.
-3. **Gratitude Practice:** Regularly count your blessings and express thanks to God.
+<h3>Finding Inner Peace</h3>
 
-Remember, Jesus said: "Peace I leave with you; my peace I give you." (John 14:27)`,
+<ol>
+<li><strong>Daily Prayer:</strong> Set aside time each day for quiet prayer and reflection.</li>
+<li><strong>Scripture Meditation:</strong> Focus on verses about peace and God's promises.</li>
+<li><strong>Gratitude Practice:</strong> Regularly count your blessings and express thanks to God.</li>
+</ol>
+
+<p>Remember, Jesus said: "Peace I leave with you; my peace I give you." (John 14:27)</p>
+
+<p><strong>Share this post with your friends and family!</strong></p>`,
     },
   ],
   pt: [
     {
-      slug: "why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict",
-      title: "Por Que Árabes e Judeus Brigam Até Hoje? A História Bíblica Por Trás do Conflito!",
-      date: "2025-05-22",
-      excerpt: "Descubra como a história bíblica de Abraão, Ismael e Isaque pode estar na origem de um dos conflitos mais antigos da humanidade — e como decisões antigas ainda ecoam até hoje.",
-      tags: ["curiosidade", "história bíblica", "fé"],
-      readingTime: 12,
-      content: `
-      
-      # Por Que Árabes e Judeus Brigam Até Hoje?
-      ## A História Bíblica por Trás do Conflito
-      Há muito tempo, em um mundo antigo onde as promessas divinas moldavam o destino das pessoas,
-      
-      Deus fez uma aliança com um homem chamado Abraão. Essa aliança não era apenas para ele, mas para todas as gerações que viriam depois. Deus disse a Abraão que sua esposa, Sara, teria um filho, e através desse filho surgiriam nações abençoadas. Essa promessa era grandiosa, cheia de esperança e significado espiritual. No entanto, havia um grande problema: Sara era estéril. Naquela época, a incapacidade de gerar filhos era vista como uma tragédia pessoal, social e até mesmo religiosa, pois os descendentes eram considerados a continuação da herança e do legado familiar.
-Para lidar com situações como essa, existiam leis antigas documentadas em textos como as Tábuas de Nuzi, Eshnunna e Alalakh.
+      slug: "culpa-de-abraao",
+      title: "Por Que Árabes e Judeus Brigam Até Hoje? A História Bíblica por Trás do Conflito",
+      date: "2024-01-15",
+      excerpt:
+        "Aprenda sobre as origens bíblicas do conflito árabe-judaico, remontando às decisões de Abraão e suas consequências duradouras.",
+      tags: ["bíblia", "história", "conflito"],
+      readingTime: 5,
+      content: `<blockquote>
+<p>Há muito tempo, em um mundo antigo onde as promessas divinas moldavam o destino das pessoas, Deus fez uma aliança com um homem chamado Abraão.</p>
+</blockquote>
 
-Essas leis regulamentavam práticas sociais e familiares, incluindo soluções para casais sem filhos. Se uma mulher não podia conceber, o marido poderia ter um filho com uma serva ou escrava da casa, desde que a esposa concordasse. Esse filho seria legalmente reconhecido como filho da esposa, funcionando quase como uma "barriga de aluguel" moderna. Embora fosse uma prática aceita e culturalmente válida, ela carregava implicações emocionais e sociais complexas.
-Sara, diante da impossibilidade de conceber, sugeriu que Abraão tivesse um filho com Agar, sua serva egípcia. Agar provavelmente havia sido adquirida por Abraão durante sua estadia no Egito, quando eles enfrentaram dificuldades e foram recebidos pelo faraó. Sara, talvez movida por um desejo de ver a promessa de Deus cumprida ou por uma pressão social para garantir um herdeiro, tomou a iniciativa de oferecer sua serva ao marido. Abraão, talvez ansioso ou influenciado pela pressão do momento, aceitou a sugestão. Ele buscou uma solução humana antes de confiar plenamente na promessa de Deus.
-Essa decisão de Abraão é vista pelos estudiosos como um erro, um "vacilo". Apesar de ser legal e culturalmente aceita na época, ela revela uma falha de fé. Abraão agiu como qualquer homem normal agiria, buscando resolver o problema por conta própria. Ele se esqueceu, mesmo que momentaneamente, do que Deus havia falado. Esse ato simboliza algo mais profundo: a tentação de tomar decisões baseadas em nossa lógica humana, em vez de esperar pela orientação divina.
-Abraão teve um filho com Agar, e esse filho foi chamado de Ismael. No início, parecia que tudo estava resolvido. Abraão finalmente tinha um herdeiro, e a promessa de Deus parecia estar sendo cumprida. Mas logo surgiram complicações. Agar, ao dar à luz, começou a se sentir superior. Ela passou a tratar Sara com desprezo, criando um ambiente de tensão e rivalidade dentro da casa. Sara, que havia sugerido a união entre Abraão e Agar, agora se sentia traída e furiosa. Ela culpou Abraão pela situação e exigiu que ele resolvesse o problema.
-Abraão se viu preso entre as duas mulheres que ele amava: Sara, sua esposa legal, e Agar, a mãe de seu filho. A situação chegou a um ponto insustentável, e Sara insistiu que Agar fosse enviada para o deserto com Ismael. Abraão, embora relutante, concordou. No deserto, Agar e Ismael ficaram à beira da morte, mas Deus ouviu o choro do menino. Ele apareceu a Agar e fez uma promessa extraordinária: Ismael se tornaria pai de uma grande nação. Assim, Deus honrou sua misericórdia, mesmo diante das escolhas humanas erradas.
-Anos mais tarde, algo extraordinário aconteceu. Mesmo na velhice avançada, Sara engravidou e deu à luz um filho, Isaque. Era o cumprimento da promessa original de Deus. O nascimento de Isaque trouxe alegria e renovação à família de Abraão. No entanto, a chegada de Isaque também trouxe novos conflitos. Ismael, agora mais velho, começou a zombar de Isaque. A rivalidade entre os dois irmãos cresceu, alimentada pelas tensões emocionais e pelas diferenças de status dentro da casa.
-A situação ficou tão insustentável que Sara exigiu que Ismael e Agar fossem novamente enviados para o deserto. Abraão, dividido entre o amor por seus dois filhos, seguiu a orientação de Deus e permitiu que Ismael e Agar partissem. Deus reafirmou sua promessa a Abraão, dizendo que cuidaria de Ismael e o transformaria em pai de uma grande nação. Assim, Ismael cresceu e se tornou o ancestral dos árabes, enquanto Isaque se tornou o ancestral dos hebreus, dos israelitas.
-Essa divisão inicial entre os dois irmãos é vista como o início de um conflito que persiste até hoje. Os descendentes de Ismael, representados pelos muçulmanos árabes, e os descendentes de Isaque, representados pelos judeus, continuam envolvidos em disputas marcadas por ódio e rivalidade. O conflito entre o Islã e o judaísmo é explicitamente ligado à história de Ismael e Isaque, simbolizando a perpetuação de ciclos de dor e mágoa através das gerações.
-A história de Abraão, Ismael e Isaque serve como um exemplo poderoso de como decisões tomadas fora do plano específico de Deus podem gerar consequências profundas e duradouras. O trauma emocional causado por rejeição e rivalidade atravessou séculos, perpetuando conflitos entre povos e nações. É uma lição sobre os problemas geracionais – ciclos de dor e mágoa que continuam a ecoar através das gerações, lembrando-nos da importância de agir com fé e sabedoria, mesmo quando as soluções humanas parecem tentadoras.
-Mas há algo ainda mais profundo nessa história. Ela nos convida a refletir sobre nossas próprias vidas. Quantas vezes buscamos soluções rápidas e humanas para problemas que poderiam ser resolvidos com paciência e fé? Quantas vezes nossas decisões, mesmo bem-intencionadas, acabam gerando consequências indesejadas que afetam não apenas nós, mas também as gerações futuras? A história de Abraão nos ensina que os erros cometidos por nossos ancestrais – ou por nós mesmos – podem deixar marcas profundas, mas também nos mostra que Deus é misericordioso e pode transformar até mesmo as situações mais difíceis em bênçãos.
-Ao observar a trajetória de Ismael e Isaque, podemos ver como o orgulho, a rejeição e a rivalidade criam ciclos de dor que se perpetuam por séculos. Ismael, apesar de ser amado por Deus, cresceu com o trauma de ter sido rejeitado por seu pai e enviado para o deserto. Esse sentimento de abandono ecoou em sua descendência, contribuindo para a formação de uma identidade que muitas vezes se opôs aos descendentes de Isaque. Por outro lado, Isaque, o filho da promessa, cresceu cercado por privilégios, mas também carregava a responsabilidade de continuar a linhagem escolhida por Deus. Essa dualidade entre os dois irmãos reflete as complexidades das relações humanas e os impactos duradouros das escolhas que fazemos.
-A história de Abraão, Ismael e Isaque também nos ensina sobre a importância do perdão e da reconciliação. Embora a Bíblia não mencione explicitamente uma reconciliação entre os dois irmãos, há indícios de que eles se encontraram mais tarde na vida. Quando Abraão morreu, tanto Ismael quanto Isaque se reuniram para enterrar seu pai. Esse momento de união, mesmo que breve, sugere que é possível superar as feridas do passado e buscar a paz.
-Por fim, essa narrativa nos desafia a pensar sobre o papel que desempenhamos em nossas famílias e comunidades. Cada decisão que tomamos, cada palavra que dizemos, pode ter um impacto duradouro nas gerações futuras. Ao olharmos para a história de Abraão, somos lembrados de que, mesmo quando erramos, Deus pode redimir nossas escolhas e transformar nossas falhas em oportunidades de crescimento. Mas também somos chamados a agir com sabedoria, confiando no plano divino e evitando soluções humanas que podem causar mais danos do que benefícios.
+<hr>
 
+<img src="/thumbnails/thumbnail-pt.png" alt="CULPA DE ABRAÃO" style="width: 100%; height: auto;">
 
+<h2>Por Que Árabes e Judeus Brigam Até Hoje? A História Bíblica por Trás do Conflito</h2>
 
-Compartilhe este post com seus amigos e familiares!`,
+<p>Há muito tempo, em um mundo antigo onde as promessas divinas moldavam o destino das pessoas, <strong>Deus fez uma aliança com um homem chamado Abraão</strong>. Essa aliança não era apenas para ele, mas para todas as gerações que viriam depois. Deus disse a Abraão que sua esposa, Sara, teria um filho, e através desse filho surgiriam nações abençoadas.</p>
+
+<p>Essa promessa era grandiosa, cheia de esperança e significado espiritual. No entanto, havia um grande problema: <em>Sara era estéril</em>. Naquela época, a incapacidade de gerar filhos era vista como uma tragédia pessoal, social e até mesmo religiosa, pois os descendentes eram considerados a continuação da herança e do legado familiar.</p>
+
+<h3>As Leis Antigas e a Solução Humana</h3>
+
+<p>Para lidar com situações como essa, existiam leis antigas documentadas em textos como as <strong>Tábuas de Nuzi, Eshnunna e Alalakh</strong>. Essas leis regulamentavam práticas sociais e familiares, incluindo soluções para casais sem filhos.</p>
+
+<p>Se uma mulher não podia conceber, o marido poderia ter um filho com uma serva ou escrava da casa, desde que a esposa concordasse. Esse filho seria legalmente reconhecido como filho da esposa, funcionando quase como uma <strong>"barriga de aluguel"</strong> moderna.</p>
+
+<h3>A Decisão de Sara e Abraão</h3>
+
+<p>Sara, diante da impossibilidade de conceber, sugeriu que Abraão tivesse um filho com <strong>Agar, sua serva egípcia</strong>. Agar provavelmente havia sido adquirida por Abraão durante sua estadia no Egito, quando eles enfrentaram dificuldades e foram recebidos pelo faraó.</p>
+
+<p>Sara, talvez movida por um desejo de ver a promessa de Deus cumprida ou por uma pressão social para garantir um herdeiro, tomou a iniciativa de oferecer sua serva ao marido. Abraão, talvez ansioso ou influenciado pela pressão do momento, aceitou a sugestão.</p>
+
+<blockquote>
+<p>Abraão buscou uma solução humana antes de confiar plenamente na promessa de Deus.</p>
+</blockquote>
+
+<h3>O Nascimento de Ismael e as Consequências</h3>
+
+<p>Abraão teve um filho com Agar, e esse filho foi chamado de <strong>Ismael</strong>. No início, parecia que tudo estava resolvido. Abraão finalmente tinha um herdeiro, e a promessa de Deus parecia estar sendo cumprida.</p>
+
+<p>Mas logo surgiram complicações. Agar, ao dar à luz, começou a se sentir superior. Ela passou a tratar Sara com desprezo, criando um ambiente de tensão e rivalidade dentro da casa. Sara, que havia sugerido a união entre Abraão e Agar, agora se sentia traída e furiosa.</p>
+
+<h3>O Cumprimento da Promessa Original</h3>
+
+<p>Anos mais tarde, algo extraordinário aconteceu. Mesmo na velhice avançada, <strong>Sara engravidou e deu à luz um filho, Isaque</strong>. Era o cumprimento da promessa original de Deus. O nascimento de Isaque trouxe alegria e renovação à família de Abraão.</p>
+
+<p>No entanto, a chegada de Isaque também trouxe novos conflitos. Ismael, agora mais velho, começou a zombar de Isaque. A rivalidade entre os dois irmãos cresceu, alimentada pelas tensões emocionais e pelas diferenças de status dentro da casa.</p>
+
+<h3>A Separação e as Consequências Eternas</h3>
+
+<p>A situação ficou tão insustentável que Sara exigiu que Ismael e Agar fossem novamente enviados para o deserto. Abraão, dividido entre o amor por seus dois filhos, seguiu a orientação de Deus e permitiu que Ismael e Agar partissem.</p>
+
+<p>Deus reafirmou sua promessa a Abraão, dizendo que cuidaria de Ismael e o transformaria em pai de uma grande nação. Assim:</p>
+
+<ul>
+<li><strong>Ismael</strong> cresceu e se tornou o ancestral dos <em>árabes</em></li>
+<li><strong>Isaque</strong> se tornou o ancestral dos <em>hebreus, dos israelitas</em></li>
+</ul>
+
+<h3>O Conflito que Persiste Até Hoje</h3>
+
+<p>Essa divisão inicial entre os dois irmãos é vista como o início de um conflito que persiste até hoje. Os descendentes de Ismael, representados pelos muçulmanos árabes, e os descendentes de Isaque, representados pelos judeus, continuam envolvidos em disputas marcadas por ódio e rivalidade.</p>
+
+<p>O conflito entre o Islã e o judaísmo é explicitamente ligado à história de Ismael e Isaque, simbolizando a perpetuação de ciclos de dor e mágoa através das gerações.</p>
+
+<h3>Lições para Nossas Vidas</h3>
+
+<p>A história de Abraão, Ismael e Isaque serve como um exemplo poderoso de como decisões tomadas fora do plano específico de Deus podem gerar consequências profundas e duradouras.</p>
+
+<p>Ela nos convida a refletir sobre nossas próprias vidas:</p>
+
+<ul>
+<li>Quantas vezes buscamos soluções rápidas e humanas para problemas que poderiam ser resolvidos com paciência e fé?</li>
+<li>Quantas vezes nossas decisões, mesmo bem-intencionadas, acabam gerando consequências indesejadas?</li>
+<li>Como podemos quebrar ciclos de dor e mágoa em nossas famílias e comunidades?</li>
+</ul>
+
+<p>A história nos ensina que os erros cometidos por nossos ancestrais – ou por nós mesmos – podem deixar marcas profundas, mas também nos mostra que <strong>Deus é misericordioso</strong> e pode transformar até mesmo as situações mais difíceis em bênçãos.</p>
+
+<a href="https://youtu.be/_twXZrjYIFo?si=t2aInrRqy2IUjXOQ" target="_blank">
+  <img src="/thumbnails/thumbnail-pt.png" alt="Thumbnail do vídeo" style="width: 100%; height: auto; border-radius: 8px;">
+</a>
+
+<p><strong>Compartilhe este post com seus amigos e familiares!</strong></p>`,
     },
     {
-      slug: "importance-of-bible-reading",
-      title: "A Importância da Leitura Bíblica",
+      slug: "como-orar-como-jesus",
+      title: "Como Orar Como Jesus",
       date: "2024-01-14",
+      excerpt: "Aprenda a orar como Jesus ensinou, com simplicidade e poder.",
+      tags: ["oração", "jesus", "fé"],
+      readingTime: 5,
+      content: `<h2>Como Orar Como Jesus</h2>
+
+<p>Orar é uma prática essencial para fortalecer sua conexão com Deus. Jesus nos deixou um modelo claro de oração no Pai Nosso.</p>
+
+<h3>Passos para Orar Como Jesus</h3>
+
+<ol>
+<li><strong>Comece com Gratidão:</strong> Agradeça a Deus pelas bênçãos diárias.</li>
+<li><strong>Seja Sincero:</strong> Fale com Deus como falaria com um amigo próximo.</li>
+<li><strong>Peça com Fé:</strong> Confie que Deus ouvirá e responderá suas orações.</li>
+</ol>
+
+<p><strong>Compartilhe este post com seus amigos e familiares!</strong></p>`,
+    },
+    {
+      slug: "importancia-da-leitura-biblica",
+      title: "A Importância da Leitura Bíblica",
+      date: "2024-01-13",
       excerpt: "Descubra como a leitura bíblica pode transformar sua vida espiritual.",
       tags: ["bíblia", "espiritualidade", "fé"],
       readingTime: 4,
-      content: `A Bíblia é uma fonte inesgotável de sabedoria e orientação.
+      content: `<h2>A Importância da Leitura Bíblica</h2>
 
-## Dicas para uma Melhor Leitura Bíblica
+<p>A Bíblia é uma fonte inesgotável de sabedoria e orientação.</p>
 
-1. **Estabeleça uma Rotina:** Leia a Bíblia diariamente, mesmo que sejam poucos versículos.
-2. **Reflexão:** Medite sobre o significado dos textos.
-3. **Aplicação Prática:** Tente aplicar os ensinamentos no seu dia a dia.
+<h3>Dicas para uma Melhor Leitura Bíblica</h3>
 
-Compartilhe este post com seus amigos e familiares!`,
+<ol>
+<li><strong>Estabeleça uma Rotina:</strong> Leia a Bíblia diariamente, mesmo que sejam poucos versículos.</li>
+<li><strong>Reflexão:</strong> Medite sobre o significado dos textos.</li>
+<li><strong>Aplicação Prática:</strong> Tente aplicar os ensinamentos no seu dia a dia.</li>
+</ol>
+
+<p><strong>Compartilhe este post com seus amigos e familiares!</strong></p>`,
     },
     {
-      slug: "finding-peace-in-chaos",
+      slug: "encontrando-paz-no-caos",
       title: "Encontrando Paz em um Mundo Caótico",
-      date: "2024-01-13",
+      date: "2024-01-12",
       excerpt: "Estratégias práticas para encontrar paz interior no mundo agitado de hoje.",
       tags: ["paz", "atenção plena", "espiritualidade"],
       readingTime: 6,
-      content: `No mundo acelerado de hoje, encontrar paz pode parecer uma tarefa impossível.
+      content: `<h2>Encontrando Paz em um Mundo Caótico</h2>
 
-## Encontrando Paz Interior
+<p>No mundo acelerado de hoje, encontrar paz pode parecer uma tarefa impossível.</p>
 
-1. **Oração Diária:** Reserve um tempo todos os dias para oração silenciosa e reflexão.
-2. **Meditação nas Escrituras:** Concentre-se em versículos sobre paz e promessas de Deus.
-3. **Prática de Gratidão:** Regularmente conte suas bênçãos e expresse gratidão a Deus.
+<h3>Encontrando Paz Interior</h3>
 
-Lembre-se, Jesus disse: "Deixo-vos a paz, a minha paz vos dou." (João 14:27)`,
+<ol>
+<li><strong>Oração Diária:</strong> Reserve um tempo todos os dias para oração silenciosa e reflexão.</li>
+<li><strong>Meditação nas Escrituras:</strong> Concentre-se em versículos sobre paz e promessas de Deus.</li>
+<li><strong>Prática de Gratidão:</strong> Regularmente conte suas bênçãos e expresse gratidão a Deus.</li>
+</ol>
+
+<p>Lembre-se, Jesus disse: "Deixo-vos a paz, a minha paz vos dou." (João 14:27)</p>
+
+<p><strong>Compartilhe este post com seus amigos e familiares!</strong></p>`,
     },
   ],
   es: [
     {
-      slug: "how-to-pray-like-jesus",
-      title: "Cómo Orar Como Jesús",
+      slug: "culpa-de-abraham",
+      title: "¿Por Qué Árabes y Judíos Pelean Hasta Hoy? ¡La Historia Bíblica Detrás del Conflicto!",
       date: "2024-01-15",
+      excerpt:
+        "Aprende sobre los orígenes bíblicos del conflicto árabe-judío, remontándose a las decisiones de Abraham y sus consecuencias duraderas.",
+      tags: ["biblia", "historia", "conflicto"],
+      readingTime: 5,
+      content: `<blockquote>
+<p>Hace mucho tiempo, en un mundo antiguo donde las promesas divinas moldeaban el destino de las personas, Dios hizo un pacto con un hombre llamado Abraham.</p>
+</blockquote>
+
+<hr>
+
+<img src="/thumbnails/thumbnail-es.png" alt="CULPA DE ABRAHAM" style="width: 100%; height: auto;">
+
+<h2>¿Por Qué Árabes y Judíos Pelean Hasta Hoy? ¡La Historia Bíblica Detrás del Conflicto!</h2>
+
+<p>Hace mucho tiempo, en un mundo antiguo donde las promesas divinas moldeaban el destino de las personas, <strong>Dios hizo un pacto con un hombre llamado Abraham</strong>. Este pacto no era solo para él, sino para todas las generaciones venideras. Dios le dijo a Abraham que su esposa, Sara, tendría un hijo, y a través de ese hijo surgirían naciones bendecidas.</p>
+
+<p>Esta promesa era grandiosa, llena de esperanza y significado espiritual. Sin embargo, había un gran problema: <em>Sara era estéril</em>. En aquellos días, la incapacidad de tener hijos se veía como una tragedia personal, social e incluso religiosa, ya que los descendientes eran considerados la continuación de la herencia y el legado familiar.</p>
+
+<p><strong>¡Comparte esta publicación con tus amigos y familiares!</strong></p>`,
+    },
+    {
+      slug: "como-orar-como-jesus",
+      title: "Cómo Orar Como Jesús",
+      date: "2024-01-14",
       excerpt: "Aprende a orar como Jesús enseñó, con simplicidad y poder.",
       tags: ["oración", "jesús", "fe"],
       readingTime: 5,
-      content: `Orar es una práctica esencial para fortalecer tu conexión con Dios. Jesús nos dejó un modelo claro de oración en el Padre Nuestro.
+      content: `<h2>Cómo Orar Como Jesús</h2>
 
-## Cómo Orar Como Jesús
+<p>Orar es una práctica esencial para fortalecer tu conexión con Dios. Jesús nos dejó un modelo claro de oración en el Padre Nuestro.</p>
 
-1. **Comienza con Gratitud:** Agradece a Dios por las bendiciones diarias.
-2. **Sé Sincero:** Habla con Dios como hablarías con un amigo cercano.
-3. **Pide con Fe:** Confía en que Dios escuchará y responderá tus oraciones.
+<h3>Pasos para Orar Como Jesús</h3>
 
-¡Comparte esta publicación con tus amigos y familiares!`,
-    },
-    {
-      slug: "importance-of-bible-reading",
-      title: "La Importancia de la Lectura Bíblica",
-      date: "2024-01-14",
-      excerpt: "Descubre cómo la lectura bíblica puede transformar tu vida espiritual.",
-      tags: ["biblia", "espiritualidad", "fe"],
-      readingTime: 4,
-      content: `La Biblia es una fuente inagotable de sabiduría y orientación.
+<ol>
+<li><strong>Comienza con Gratitud:</strong> Agradece a Dios por las bendiciones diarias.</li>
+<li><strong>Sé Sincero:</strong> Habla con Dios como hablarías con un amigo cercano.</li>
+<li><strong>Pide con Fe:</strong> Confía en que Dios escuchará y responderá tus oraciones.</li>
+</ol>
 
-## Consejos para una Mejor Lectura Bíblica
-
-1. **Establece una Rutina:** Lee la Biblia diariamente, aunque sean solo unos pocos versículos.
-2. **Reflexión:** Medita sobre el significado de los textos.
-3. **Aplicación Práctica:** Intenta aplicar las enseñanzas en tu vida diaria.
-
-¡Comparte esta publicación con tus amigos y familiares!`,
-    },
-    {
-      slug: "finding-peace-in-chaos",
-      title: "Encontrando Paz en un Mundo Caótico",
-      date: "2024-01-13",
-      excerpt: "Estrategias prácticas para encontrar paz interior en el agitado mundo de hoy.",
-      tags: ["paz", "atención plena", "espiritualidad"],
-      readingTime: 6,
-      content: `En el mundo acelerado de hoy, encontrar paz puede parecer una tarea imposible.
-
-## Encontrando Paz Interior
-
-1. **Oración Diaria:** Reserva tiempo cada día para la oración silenciosa y la reflexión.
-2. **Meditación en las Escrituras:** Concéntrate en versículos sobre la paz y las promesas de Dios.
-3. **Práctica de Gratitud:** Regularmente cuenta tus bendiciones y expresa gratitud a Dios.
-
-Recuerda, Jesús dijo: "La paz os dejo, mi paz os doy." (Juan 14:27)`,
-    },
-  ],
-  de: [
-    {
-      slug: "how-to-pray-like-jesus",
-      title: "Wie man wie Jesus betet",
-      date: "2024-01-15",
-      excerpt: "Lernen Sie zu beten, wie Jesus es lehrte, mit Einfachheit und Kraft.",
-      tags: ["gebet", "jesus", "glaube"],
-      readingTime: 5,
-      content: `Beten ist eine wesentliche Praxis, um Ihre Verbindung mit Gott zu stärken. Jesus hat uns im Vaterunser ein klares Gebetsmodell hinterlassen.
-
-## Wie man wie Jesus betet
-
-1. **Beginnen Sie mit Dankbarkeit:** Danken Sie Gott für tägliche Segnungen.
-2. **Seien Sie aufrichtig:** Sprechen Sie mit Gott, wie Sie mit einem engen Freund sprechen würden.
-3. **Bitten Sie mit Glauben:** Vertrauen Sie darauf, dass Gott Ihre Gebete hört und beantwortet.
-
-Teilen Sie diesen Beitrag mit Ihren Freunden und Ihrer Familie!`,
-    },
-    {
-      slug: "importance-of-bible-reading",
-      title: "Die Bedeutung des Bibellesens",
-      date: "2024-01-14",
-      excerpt: "Entdecken Sie, wie Bibellesen Ihr spirituelles Leben verändern kann.",
-      tags: ["bibel", "spiritualität", "glaube"],
-      readingTime: 4,
-      content: `Die Bibel ist eine unerschöpfliche Quelle der Weisheit und Führung.
-
-## Tipps für besseres Bibellesen
-
-1. **Etablieren Sie eine Routine:** Lesen Sie täglich in der Bibel, auch wenn es nur wenige Verse sind.
-2. **Reflexion:** Meditieren Sie über die Bedeutung der Texte.
-3. **Praktische Anwendung:** Versuchen Sie, die Lehren in Ihrem täglichen Leben anzuwenden.
-
-Teilen Sie diesen Beitrag mit Ihren Freunden und Ihrer Familie!`,
-    },
-    {
-      slug: "finding-peace-in-chaos",
-      title: "Frieden finden in einer chaotischen Welt",
-      date: "2024-01-13",
-      excerpt: "Praktische Strategien, um inneren Frieden in der hektischen Welt von heute zu finden.",
-      tags: ["frieden", "achtsamkeit", "spiritualität"],
-      readingTime: 6,
-      content: `In der heutigen schnelllebigen Welt kann es wie eine unmögliche Aufgabe erscheinen, Frieden zu finden.
-
-## Inneren Frieden finden
-
-1. **Tägliches Gebet:** Nehmen Sie sich jeden Tag Zeit für stilles Gebet und Reflexion.
-2. **Schriftmeditation:** Konzentrieren Sie sich auf Verse über Frieden und Gottes Verheißungen.
-3. **Dankbarkeitspraxis:** Zählen Sie regelmäßig Ihre Segnungen und danken Sie Gott.
-
-Denken Sie daran, Jesus sagte: "Frieden lasse ich euch, meinen Frieden gebe ich euch." (Johannes 14:27)`,
-    },
-  ],
-  fr: [
-    {
-      slug: "how-to-pray-like-jesus",
-      title: "Comment prier comme Jésus",
-      date: "2024-01-15",
-      excerpt: "Apprenez à prier comme Jésus l'a enseigné, avec simplicité et puissance.",
-      tags: ["prière", "jésus", "foi"],
-      readingTime: 5,
-      content: `Prier est une pratique essentielle pour renforcer votre connexion avec Dieu. Jésus nous a laissé un modèle clair de prière dans le Notre Père.
-
-## Comment prier comme Jésus
-
-1. **Commencez par la Gratitude:** Remerciez Dieu pour les bénédictions quotidiennes.
-2. **Soyez Sincère:** Parlez à Dieu comme vous parleriez à un ami proche.
-3. **Demandez avec Foi:** Ayez confiance que Dieu entendra et répondra à vos prières.
-
-Partagez ce post avec vos amis et votre famille!`,
-    },
-    {
-      slug: "importance-of-bible-reading",
-      title: "L'importance de la lecture biblique",
-      date: "2024-01-14",
-      excerpt: "Découvrez comment la lecture biblique peut transformer votre vie spirituelle.",
-      tags: ["bible", "spiritualité", "foi"],
-      readingTime: 4,
-      content: `La Bible est une source inépuisable de sagesse et de guidance.
-
-## Conseils pour une meilleure lecture biblique
-
-1. **Établissez une Routine:** Lisez la Bible quotidiennement, même si ce n'est que quelques versets.
-2. **Réflexion:** Méditez sur la signification des textes.
-3. **Application Pratique:** Essayez d'appliquer les enseignements dans votre vie quotidienne.
-
-Partagez ce post avec vos amis et votre famille!`,
-    },
-    {
-      slug: "finding-peace-in-chaos",
-      title: "Trouver la paix dans un monde chaotique",
-      date: "2024-01-13",
-      excerpt: "Stratégies pratiques pour trouver la paix intérieure dans le monde trépidant d'aujourd'hui.",
-      tags: ["paix", "pleine conscience", "spiritualité"],
-      readingTime: 6,
-      content: `Dans le monde trépidant d'aujourd'hui, trouver la paix peut sembler une tâche impossible.
-
-## Trouver la paix intérieure
-
-1. **Prière Quotidienne:** Réservez du temps chaque jour pour la prière silencieuse et la réflexion.
-2. **Méditation des Écritures:** Concentrez-vous sur les versets concernant la paix et les promesses de Dieu.
-3. **Pratique de la Gratitude:** Comptez régulièrement vos bénédictions et exprimez votre gratitude à Dieu.
-
-Souvenez-vous, Jésus a dit: "Je vous laisse la paix, je vous donne ma paix." (Jean 14:27)`,
-    },
-  ],
-  it: [
-    {
-      slug: "how-to-pray-like-jesus",
-      title: "Come pregare come Gesù",
-      date: "2024-01-15",
-      excerpt: "Impara a pregare come ha insegnato Gesù, con semplicità e potenza.",
-      tags: ["preghiera", "gesù", "fede"],
-      readingTime: 5,
-      content: `Pregare è una pratica essenziale per rafforzare la tua connessione con Dio. Gesù ci ha lasciato un chiaro modello di preghiera nel Padre Nostro.
-
-## Come pregare come Gesù
-
-1. **Inizia con Gratitudine:** Ringrazia Dio per le benedizioni quotidiane.
-2. **Sii Sincero:** Parla con Dio come parleresti con un amico stretto.
-3. **Chiedi con Fede:** Confida che Dio ascolterà e risponderà alle tue preghiere.
-
-Condividi questo post con i tuoi amici e familiari!`,
-    },
-    {
-      slug: "importance-of-bible-reading",
-      title: "L'importanza della lettura biblica",
-      date: "2024-01-14",
-      excerpt: "Scopri come la lettura biblica può trasformare la tua vita spirituale.",
-      tags: ["bibbia", "spiritualità", "fede"],
-      readingTime: 4,
-      content: `La Bibbia è una fonte inesauribile di saggezza e guida.
-
-## Consigli per una migliore lettura biblica
-
-1. **Stabilisci una Routine:** Leggi la Bibbia quotidianamente, anche se sono solo pochi versetti.
-2. **Riflessione:** Medita sul significato dei testi.
-3. **Applicazione Pratica:** Cerca di applicare gli insegnamenti nella tua vita quotidiana.
-
-Condividi questo post con i tuoi amici e familiari!`,
-    },
-    {
-      slug: "finding-peace-in-chaos",
-      title: "Trovare pace in un mondo caotico",
-      date: "2024-01-13",
-      excerpt: "Strategie pratiche per trovare la pace interiore nel frenetico mondo di oggi.",
-      tags: ["pace", "mindfulness", "spiritualità"],
-      readingTime: 6,
-      content: `Nel mondo frenetico di oggi, trovare la pace può sembrare un compito impossibile.
-
-## Trovare la pace interiore
-
-1. **Preghiera Quotidiana:** Dedica del tempo ogni giorno alla preghiera silenziosa e alla riflessione.
-2. **Meditazione delle Scritture:** Concentrati sui versetti riguardanti la pace e le promesse di Dio.
-3. **Pratica della Gratitudine:** Conta regolarmente le tue benedizioni ed esprimi gratitudine a Dio.
-
-Ricorda, Gesù ha detto: "Vi lascio la pace, vi do la mia pace." (Giovanni 14:27)`,
-    },
-  ],
-  fil: [
-    {
-      slug: "how-to-pray-like-jesus",
-      title: "Paano Manalangin Tulad ni Hesus",
-      date: "2024-01-15",
-      excerpt: "Matuto kung paano manalangin tulad ng itinuro ni Hesus, nang may kasimplehan at kapangyarihan.",
-      tags: ["panalangin", "hesus", "pananampalataya"],
-      readingTime: 5,
-      content: `Ang pananalangin ay isang mahalagang kasanayan upang palakasin ang inyong koneksyon sa Diyos. Iniwan sa atin ni Hesus ang isang malinaw na modelo ng panalangin sa Panalangin ng Panginoon.
-
-## Paano Manalangin Tulad ni Hesus
-
-1. **Magsimula sa Pasasalamat:** Pasalamatan ang Diyos para sa pang-araw-araw na mga pagpapala.
-2. **Maging Tapat:** Makipag-usap sa Diyos tulad ng pakikipag-usap mo sa isang malapit na kaibigan.
-3. **Humiling nang may Pananampalataya:** Magtiwala na maririnig at sasagutin ng Diyos ang inyong mga panalangin.
-
-Ibahagi ang post na ito sa inyong mga kaibigan at pamilya!`,
-    },
-    {
-      slug: "importance-of-bible-reading",
-      title: "Ang Kahalagahan ng Pagbabasa ng Bibliya",
-      date: "2024-01-14",
-      excerpt: "Tuklasin kung paano mababago ng pagbabasa ng Bibliya ang inyong espirituwal na buhay.",
-      tags: ["bibliya", "espiritwalidad", "pananampalataya"],
-      readingTime: 4,
-      content: `Ang Bibliya ay isang hindi mauubos na pinagmumulan ng karunungan at patnubay.
-
-## Mga Tip para sa Mas Mahusay na Pagbabasa ng Bibliya
-
-1. **Magtatag ng Rutina:** Magbasa ng Bibliya araw-araw, kahit na ilang talata lamang.
-2. **Pagninilay:** Pagbulay-bulayin ang kahulugan ng mga teksto.
-3. **Praktikal na Aplikasyon:** Subukang ilapat ang mga turo sa inyong pang-araw-araw na buhay.
-
-Ibahagi ang post na ito sa inyong mga kaibigan at pamilya!`,
-    },
-    {
-      slug: "finding-peace-in-chaos",
-      title: "Paghahanap ng Kapayapaan sa isang Magulo na Mundo",
-      date: "2024-01-13",
-      excerpt: "Mga praktikal na estratehiya upang makahanap ng panloob na kapayapaan sa abalang mundo ngayon.",
-      tags: ["kapayapaan", "mindfulness", "espiritwalidad"],
-      readingTime: 6,
-      content: `Sa mabilis na mundo ngayon, ang paghahanap ng kapayapaan ay tila imposibleng gawain.
-
-## Paghahanap ng Panloob na Kapayapaan
-
-1. **Pang-araw-araw na Panalangin:** Maglaan ng oras bawat araw para sa tahimik na panalangin at pagninilay.
-2. **Pagninilay sa Kasulatan:** Magtuon sa mga talata tungkol sa kapayapaan at mga pangako ng Diyos.
-3. **Pagsasanay ng Pasasalamat:** Regular na bilangin ang inyong mga pagpapala at ipahayag ang pasasalamat sa Diyos.
-
-Tandaan, sinabi ni Hesus: "Ang kapayapaan ay iniiwan ko sa inyo, ang aking kapayapaan ay ibinibigay ko sa inyo." (Juan 14:27)`,
+<p><strong>¡Comparte esta publicación con tus amigos y familiares!</strong></p>`,
     },
   ],
 }
