@@ -142,7 +142,7 @@ export async function getPostBySlug(lang: string, slug: string): Promise<Post | 
       console.log(`Post ${slug} not found for language ${lang}, checking if we need to create sample posts`)
 
       // Check if this is one of our standard slugs and create it if needed
-      const standardSlugs = ["how-to-pray-like-jesus", "importance-of-bible-reading", "finding-peace-in-chaos"]
+      const standardSlugs = ["how-to-pray-like-jesus", "importance-of-bible-reading", "finding-peace-in-chaos", "why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict"]
       if (standardSlugs.includes(slug)) {
         await createSamplePosts(lang)
 
