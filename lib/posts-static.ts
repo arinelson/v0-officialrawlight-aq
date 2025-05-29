@@ -320,85 +320,131 @@ const postsData = {
         "Aprenda sobre as origens bíblicas do conflito árabe-judaico, remontando às decisões de Abraão e suas consequências duradouras.",
       tags: ["bíblia", "história", "conflito"],
       readingTime: 5,
-      content: `<blockquote>
+      content: `<!-- Vídeo do YouTube -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/N81AgWn2_tw " 
+        title="YouTube video player" frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+</iframe>
+
+<br><br>
+
+<!-- Conteúdo da página -->
+
 <p>Há muito tempo, em um mundo antigo onde as promessas divinas moldavam o destino das pessoas, Deus fez uma aliança com um homem chamado Abraão.</p>
-</blockquote>
 
-<br>
+<p>Essa aliança não era apenas para ele, mas para todas as gerações que viriam depois. Deus disse a Abraão que sua esposa, Sara, teria um filho, e através desse filho surgiriam nações abençoadas.</p>
 
-<img src="/why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict
-/abraao-falando-com-deus.jpg" alt="Abraão Falando Com Deus" style="width: 100%; height: auto;"/>
+<p>Essa promessa era grandiosa, cheia de esperança e significado espiritual. No entanto, havia um grande problema: Sara era estéril.</p>
 
-<h2>Por Que Árabes e Judeus Brigam Até Hoje? A História Bíblica por Trás do Conflito</h2>
+<p>Naquela época, a incapacidade de gerar filhos era vista como uma tragédia pessoal, social e até mesmo religiosa, pois os descendentes eram considerados a continuação da herança e do legado familiar.</p>
 
-<p>Há muito tempo, em um mundo antigo onde as promessas divinas moldavam o destino das pessoas, <strong>Deus fez uma aliança com um homem chamado Abraão</strong>. Essa aliança não era apenas para ele, mas para todas as gerações que viriam depois. Deus disse a Abraão que sua esposa, Sara, teria um filho, e através desse filho surgiriam nações abençoadas.</p>
+<p>Para lidar com situações como essa, existiam leis antigas documentadas em textos como as Tábuas de Nuzi, Eshnunna e Alalakh.</p>
 
-<p>Essa promessa era grandiosa, cheia de esperança e significado espiritual. No entanto, havia um grande problema: <em>Sara era estéril</em>. Naquela época, a incapacidade de gerar filhos era vista como uma tragédia pessoal, social e até mesmo religiosa, pois os descendentes eram considerados a continuação da herança e do legado familiar.</p>
+<p>Essas leis regulamentavam práticas sociais e familiares, incluindo soluções para casais sem filhos.</p>
 
-<h3>As Leis Antigas e a Solução Humana</h3>
+<p>Se uma mulher não podia conceber, o marido poderia ter um filho com uma serva ou escrava da casa, desde que a esposa concordasse.</p>
 
-<p>Para lidar com situações como essa, existiam leis antigas documentadas em textos como as <strong>Tábuas de Nuzi, Eshnunna e Alalakh</strong>. Essas leis regulamentavam práticas sociais e familiares, incluindo soluções para casais sem filhos.</p>
+<p>Esse filho seria legalmente reconhecido como filho da esposa, funcionando quase como uma "barriga de aluguel" moderna. Embora fosse uma prática aceita e culturalmente válida, ela carregava implicações emocionais e sociais complexas.</p>
 
-<p>Se uma mulher não podia conceber, o marido poderia ter um filho com uma serva ou escrava da casa, desde que a esposa concordasse. Esse filho seria legalmente reconhecido como filho da esposa, funcionando quase como uma <strong>"barriga de aluguel"</strong> moderna.</p>
+<p>Sara, diante da impossibilidade de conceber, sugeriu que Abraão tivesse um filho com Agar, sua serva egípcia.</p>
 
-<h3>A Decisão de Sara e Abraão</h3>
+<p>Agar provavelmente havia sido adquirida por Abraão durante sua estadia no Egito, quando eles enfrentaram dificuldades e foram recebidos pelo faraó.</p>
 
-<p>Sara, diante da impossibilidade de conceber, sugeriu que Abraão tivesse um filho com <strong>Agar, sua serva egípcia</strong>. Agar provavelmente havia sido adquirida por Abraão durante sua estadia no Egito, quando eles enfrentaram dificuldades e foram recebidos pelo faraó.</p>
+<p>Sara, talvez movida por um desejo de ver a promessa de Deus cumprida ou por uma pressão social para garantir um herdeiro, tomou a iniciativa de oferecer sua serva ao marido.</p>
 
-<p>Sara, talvez movida por um desejo de ver a promessa de Deus cumprida ou por uma pressão social para garantir um herdeiro, tomou a iniciativa de oferecer sua serva ao marido. Abraão, talvez ansioso ou influenciado pela pressão do momento, aceitou a sugestão.</p>
+<p>Abraão, talvez ansioso ou influenciado pela pressão do momento, aceitou a sugestão. Ele buscou uma solução humana antes de confiar plenamente na promessa de Deus.</p>
 
-<blockquote>
-<p>Abraão buscou uma solução humana antes de confiar plenamente na promessa de Deus.</p>
-</blockquote>
+<p>Essa decisão de Abraão é vista pelos estudiosos como um erro, um "vacilo". Apesar de ser legal e culturalmente aceita na época, ela revela uma falha de fé.</p>
 
-<h3>O Nascimento de Ismael e as Consequências</h3>
+<p>Abraão agiu como qualquer homem normal agiria, buscando resolver o problema por conta própria. Ele se esqueceu, mesmo que momentaneamente, do que Deus havia falado.</p>
 
-<p>Abraão teve um filho com Agar, e esse filho foi chamado de <strong>Ismael</strong>. No início, parecia que tudo estava resolvido. Abraão finalmente tinha um herdeiro, e a promessa de Deus parecia estar sendo cumprida.</p>
+<p>Esse ato simboliza algo mais profundo: a tentação de tomar decisões baseadas em nossa lógica humana, em vez de esperar pela orientação divina.</p>
 
-<p>Mas logo surgiram complicações. Agar, ao dar à luz, começou a se sentir superior. Ela passou a tratar Sara com desprezo, criando um ambiente de tensão e rivalidade dentro da casa. Sara, que havia sugerido a união entre Abraão e Agar, agora se sentia traída e furiosa.</p>
+<p>Abraão teve um filho com Agar, e esse filho foi chamado de Ismael.</p>
 
-<h3>O Cumprimento da Promessa Original</h3>
+<p>No início, parecia que tudo estava resolvido. Abraão finalmente tinha um herdeiro, e a promessa de Deus parecia estar sendo cumprida.</p>
 
-<p>Anos mais tarde, algo extraordinário aconteceu. Mesmo na velhice avançada, <strong>Sara engravidou e deu à luz um filho, Isaque</strong>. Era o cumprimento da promessa original de Deus. O nascimento de Isaque trouxe alegria e renovação à família de Abraão.</p>
+<p>Mas logo surgiram complicações. Agar, ao dar à luz, começou a se sentir superior.</p>
 
-<p>No entanto, a chegada de Isaque também trouxe novos conflitos. Ismael, agora mais velho, começou a zombar de Isaque. A rivalidade entre os dois irmãos cresceu, alimentada pelas tensões emocionais e pelas diferenças de status dentro da casa.</p>
+<p>Ela passou a tratar Sara com desprezo, criando um ambiente de tensão e rivalidade dentro da casa.</p>
 
-<h3>A Separação e as Consequências Eternas</h3>
+<p>Sara, que havia sugerido a união entre Abraão e Agar, agora se sentia traída e furiosa.</p>
 
-<p>A situação ficou tão insustentável que Sara exigiu que Ismael e Agar fossem novamente enviados para o deserto. Abraão, dividido entre o amor por seus dois filhos, seguiu a orientação de Deus e permitiu que Ismael e Agar partissem.</p>
+<p>Ela culpou Abraão pela situação e exigiu que ele resolvesse o problema.</p>
 
-<p>Deus reafirmou sua promessa a Abraão, dizendo que cuidaria de Ismael e o transformaria em pai de uma grande nação. Assim:</p>
+<p>Abraão se viu preso entre as duas mulheres que ele amava: Sara, sua esposa legal, e Agar, a mãe de seu filho.</p>
 
-<ul>
-<li><strong>Ismael</strong> cresceu e se tornou o ancestral dos <em>árabes</em></li>
-<li><strong>Isaque</strong> se tornou o ancestral dos <em>hebreus, dos israelitas</em></li>
-</ul>
+<p>A situação chegou a um ponto insustentável, e Sara insistiu que Agar fosse enviada para o deserto com Ismael.</p>
 
-<h3>O Conflito que Persiste Até Hoje</h3>
+<p>Abraão, embora relutante, concordou. No deserto, Agar e Ismael ficaram à beira da morte, mas Deus ouviu o choro do menino.</p>
 
-<p>Essa divisão inicial entre os dois irmãos é vista como o início de um conflito que persiste até hoje. Os descendentes de Ismael, representados pelos muçulmanos árabes, e os descendentes de Isaque, representados pelos judeus, continuam envolvidos em disputas marcadas por ódio e rivalidade.</p>
+<p>Ele apareceu a Agar e fez uma promessa extraordinária: Ismael se tornaria pai de uma grande nação.</p>
+
+<p>Assim, Deus honrou sua misericórdia, mesmo diante das escolhas humanas erradas.</p>
+
+<p>Anos mais tarde, algo extraordinário aconteceu. Mesmo na velhice avançada, Sara engravidou e deu à luz um filho, Isaque.</p>
+
+<p>Era o cumprimento da promessa original de Deus. O nascimento de Isaque trouxe alegria e renovação à família de Abraão.</p>
+
+<p>No entanto, a chegada de Isaque também trouxe novos conflitos. Ismael, agora mais velho, começou a zombar de Isaque.</p>
+
+<p>A rivalidade entre os dois irmãos cresceu, alimentada pelas tensões emocionais e pelas diferenças de status dentro da casa.</p>
+
+<p>A situação ficou tão insustentável que Sara exigiu que Ismael e Agar fossem novamente enviados para o deserto.</p>
+
+<p>Abraão, dividido entre o amor por seus dois filhos, seguiu a orientação de Deus e permitiu que Ismael e Agar partissem.</p>
+
+<p>Deus reafirmou sua promessa a Abraão, dizendo que cuidaria de Ismael e o transformaria em pai de uma grande nação.</p>
+
+<p>Assim, Ismael cresceu e se tornou o ancestral dos árabes, enquanto Isaque se tornou o ancestral dos hebreus, dos israelitas.</p>
+
+<p>Essa divisão inicial entre os dois irmãos é vista como o início de um conflito que persiste até hoje.</p>
+
+<p>Os descendentes de Ismael, representados pelos muçulmanos árabes, e os descendentes de Isaque, representados pelos judeus, continuam envolvidos em disputas marcadas por ódio e rivalidade.</p>
 
 <p>O conflito entre o Islã e o judaísmo é explicitamente ligado à história de Ismael e Isaque, simbolizando a perpetuação de ciclos de dor e mágoa através das gerações.</p>
 
-<h3>Lições para Nossas Vidas</h3>
-
 <p>A história de Abraão, Ismael e Isaque serve como um exemplo poderoso de como decisões tomadas fora do plano específico de Deus podem gerar consequências profundas e duradouras.</p>
 
-<p>Ela nos convida a refletir sobre nossas próprias vidas:</p>
+<p>O trauma emocional causado por rejeição e rivalidade atravessou séculos, perpetuando conflitos entre povos e nações.</p>
 
-<ul>
-<li>Quantas vezes buscamos soluções rápidas e humanas para problemas que poderiam ser resolvidos com paciência e fé?</li>
-<li>Quantas vezes nossas decisões, mesmo bem-intencionadas, acabam gerando consequências indesejadas?</li>
-<li>Como podemos quebrar ciclos de dor e mágoa em nossas famílias e comunidades?</li>
-</ul>
+<p>É uma lição sobre os problemas geracionais – ciclos de dor e mágoa que continuam a ecoar através das gerações, lembrando-nos da importância de agir com fé e sabedoria, mesmo quando as soluções humanas parecem tentadoras.</p>
 
-<p>A história nos ensina que os erros cometidos por nossos ancestrais – ou por nós mesmos – podem deixar marcas profundas, mas também nos mostra que <strong>Deus é misericordioso</strong> e pode transformar até mesmo as situações mais difíceis em bênçãos.</p>
+<p>Mas há algo ainda mais profundo nessa história. Ela nos convida a refletir sobre nossas próprias vidas.</p>
 
-<a href="https://youtu.be/_twXZrjYIFo?si=t2aInrRqy2IUjXOQ" target="_blank">
-  <img src="/thumbnails/thumbnail-pt.png" alt="Thumbnail do vídeo" style="width: 100%; height: auto; border-radius: 8px;">
-</a>
+<p>Quantas vezes buscamos soluções rápidas e humanas para problemas que poderiam ser resolvidos com paciência e fé?</p>
 
-<p><strong>Compartilhe este post com seus amigos e familiares!</strong></p>`,
+<p>Quantas vezes nossas decisões, mesmo bem-intencionadas, acabam gerando consequências indesejadas que afetam não apenas nós, mas também as gerações futuras?</p>
+
+<p>A história de Abraão nos ensina que os erros cometidos por nossos ancestrais – ou por nós mesmos – podem deixar marcas profundas, mas também nos mostra que Deus é misericordioso e pode transformar até mesmo as situações mais difíceis em bênçãos.</p>
+
+<p>Ao observar a trajetória de Ismael e Isaque, podemos ver como o orgulho, a rejeição e a rivalidade criam ciclos de dor que se perpetuam por séculos.</p>
+
+<p>Ismael, apesar de ser amado por Deus, cresceu com o trauma de ter sido rejeitado por seu pai e enviado para o deserto.</p>
+
+<p>Esse sentimento de abandono ecoou em sua descendência, contribuindo para a formação de uma identidade que muitas vezes se opôs aos descendentes de Isaque.</p>
+
+<p>Por outro lado, Isaque, o filho da promessa, cresceu cercado por privilégios, mas também carregava a responsabilidade de continuar a linhagem escolhida por Deus.</p>
+
+<p>Essa dualidade entre os dois irmãos reflete as complexidades das relações humanas e os impactos duradouros das escolhas que fazemos.</p>
+
+<p>A história de Abraão, Ismael e Isaque também nos ensina sobre a importância do perdão e da reconciliação.</p>
+
+<p>Embora a Bíblia não mencione explicitamente uma reconciliação entre os dois irmãos, há indícios de que eles se encontraram mais tarde na vida.</p>
+
+<p>Quando Abraão morreu, tanto Ismael quanto Isaque se reuniram para enterrar seu pai.</p>
+
+<p>Esse momento de união, mesmo que breve, sugere que é possível superar as feridas do passado e buscar a paz.</p>
+
+<p>Por fim, essa narrativa nos desafia a pensar sobre o papel que desempenhamos em nossas famílias e comunidades.</p>
+
+<p>Cada decisão que tomamos, cada palavra que dizemos, pode ter um impacto duradouro nas gerações futuras.</p>
+
+<p> Ao olharmos para a história de Abraão, somos lembrados de que, mesmo quando erramos, Deus pode redimir nossas escolhas e transformar nossas falhas em oportunidades de crescimento.</p>
+
+<p>Mas também somos chamados a agir com sabedoria, confiando no plano divino e evitando soluções humanas que podem causar mais danos do que benefícios.</p>
+`,
     },
     {
       slug: "how-to-pray-like-jesus",
