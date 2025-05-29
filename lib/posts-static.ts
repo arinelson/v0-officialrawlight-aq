@@ -720,63 +720,133 @@ const postsData = {
         "Aprende sobre los orígenes bíblicos del conflicto árabe-judío, remontándose a las decisiones de Abraham y sus consecuencias duraderas.",
       tags: ["biblia", "historia", "conflicto"],
       readingTime: 5,
-      content: `<blockquote>
-<p>Hace mucho tiempo, en un mundo antiguo donde las promesas divinas moldeaban el destino de las personas, Dios hizo un pacto con un hombre llamado Abraham.</p>
-</blockquote>
+      content: `<!-- Video de YouTube -->
+<div style="position:relative; padding-bottom:56.25%; margin-bottom:20px;">
+  <iframe 
+    src="https://www.youtube.com/embed/JT7wsUxxu1E " 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    style="position:absolute; width:100%; height:100%; top:0; left:0;">
+  </iframe>
+</div>
 
-<hr>
+<br><br>
 
-<img src="/thumbnails/thumbnail-es.png" alt="CULPA DE ABRAHAM" style="width: 100%; height: auto;">
+<!-- Contenido de la página -->
 
-<h2>¿Por Qué Árabes y Judíos Pelean Hasta Hoy? ¡La Historia Bíblica Detrás del Conflicto!</h2>
+<p>Hace mucho tiempo, en un mundo antiguo donde las promesas divinas moldeaban el destino de las personas, Dios hizo una alianza con un hombre llamado Abraham.</p>
+<br>
+<p>Esta alianza no era solo para él, sino también para todas las generaciones que vendrían después. Dios le dijo a Abraham que su esposa, Sara, tendría un hijo, y a través de ese hijo surgirían naciones bendecidas.</p>
 
-<p>Hace mucho tiempo, en un mundo antiguo donde las promesas divinas moldeaban el destino de las personas, <strong>Dios hizo un pacto con un hombre llamado Abraham</strong>. Este pacto no era solo para él, sino para todas las generaciones venideras. Dios le dijo a Abraham que su esposa, Sara, tendría un hijo, y a través de ese hijo surgirían naciones bendecidas.</p>
+<p>Esta promesa era grande, llena de esperanza y significado espiritual. Sin embargo, había un gran problema: Sara era estéril. En aquella época, la incapacidad de tener hijos se consideraba una tragedia personal, social e incluso religiosa, ya que los descendientes eran vistos como la continuidad del legado y la herencia familiar.</p>
 
-<p>Esta promesa era grandiosa, llena de esperanza y significado espiritual. Sin embargo, había un gran problema: <em>Sara era estéril</em>. En aquellos días, la incapacidad de tener hijos se veía como una tragedia personal, social e incluso religiosa, ya que los descendientes eran considerados la continuación de la herencia y el legado familiar.</p>
+<p>Para enfrentar situaciones como esta, existían leyes antiguas documentadas en textos como las Tablas de Nuzi, Eshnunna y Alalakh.</p>
 
-<p><strong>¡Comparte esta publicación con tus amigos y familiares!</strong></p>`,
-    },
-    {
-      slug: "how-to-pray-like-jesus",
-      title: "Cómo Orar Como Jesús",
-      date: "2024-01-14",
-      excerpt: "Aprende a orar como Jesús enseñó, con simplicidad y poder.",
-      tags: ["oración", "jesús", "fe"],
-      readingTime: 5,
-      content: `<h2>Cómo Orar Como Jesús</h2>
+<p>Estas leyes regulaban prácticas sociales y familiares, incluyendo soluciones para parejas sin hijos.</p>
+<br>
+<p>Si una mujer no podía concebir, el esposo podía tener un hijo con una sierva o esclava de la casa, siempre que la esposa estuviera de acuerdo.</p>
 
-<p>Orar es una práctica esencial para fortalecer tu conexión con Dios. Jesús nos dejó un modelo claro de oración en el Padre Nuestro.</p>
+<p>Ese hijo sería reconocido legalmente como hijo de la esposa, funcionando casi como un "vientre de alquiler" moderno. Aunque era una práctica aceptada culturalmente, traía implicaciones emocionales y sociales complejas.</p>
 
-<h3>Pasos para Orar Como Jesús</h3>
+<p>Sara, ante su imposibilidad de concebir, sugirió que Abraham tuviera un hijo con Agar, su sierva egipcia.</p>
 
-<ol>
-<li><strong>Comienza con Gratitud:</strong> Agradece a Dios por las bendiciones diarias.</li>
-<li><strong>Sé Sincero:</strong> Habla con Dios como hablarías con un amigo cercano.</li>
-<li><strong>Pide con Fe:</strong> Confía en que Dios escuchará y responderá tus oraciones.</li>
-</ol>
+<p>Agar probablemente fue adquirida por Abraham durante su estancia en Egipto, cuando atravesaron dificultades y fueron recibidos por el faraón.</p>
 
-<p><strong>¡Comparte esta publicación con tus amigos y familiares!</strong></p>`,
-    },
-    {
-      slug: "importance-of-bible-reading",
-      title: "La Importancia de la Lectura Bíblica",
-      date: "2024-01-13",
-      excerpt: "Descubre cómo la lectura bíblica puede transformar tu vida espiritual.",
-      tags: ["biblia", "espiritualidad", "fe"],
-      readingTime: 4,
-      content: `<h2>La Importancia de la Lectura Bíblica</h2>
+<p>Sara, tal vez movida por el deseo de ver cumplida la promesa de Dios o presionada por la sociedad para asegurar un heredero, tomó la iniciativa de ofrecer a su sierva a su esposo.</p>
 
-<p>La Biblia es una fuente inagotable de sabiduría y orientación.</p>
+<p>Abraham, quizás ansioso o influenciado por la presión del momento, aceptó la sugerencia. Buscó una solución humana antes de confiar plenamente en la promesa de Dios.</p>
 
-<h3>Consejos para una Mejor Lectura Bíblica</h3>
+<p>Esta decisión de Abraham es vista por los estudiosos como un error, un “tropezón”. Aunque era legal y culturalmente aceptable en aquella época, revelaba una falla de fe.</p>
 
-<ol>
-<li><strong>Establece una Rutina:</strong> Lee la Biblia diariamente, aunque sean solo unos pocos versículos.</li>
-<li><strong>Reflexión:</strong> Medita sobre el significado de los textos.</li>
-<li><strong>Aplicación Práctica:</strong> Intenta aplicar las enseñanzas en tu vida diaria.</li>
-</ol>
+<p>Abraham actuó como actuaría cualquier hombre común, intentando resolver el problema por sí mismo. Momentáneamente olvidó lo que Dios le había dicho.</p>
 
-<p><strong>¡Comparte esta publicación con tus amigos y familiares!</strong></p>`,
+<p>Este acto simboliza algo más profundo: la tentación de tomar decisiones basadas en nuestra propia lógica humana, en lugar de esperar por la guía divina.</p>
+
+<p>Abraham tuvo un hijo con Agar, y ese hijo fue llamado Ismael.</p>
+<br>
+<p>Al principio, todo parecía resuelto. Abraham finalmente tenía un heredero y la promesa de Dios parecía estar cumpliéndose.</p>
+
+<p>Pero pronto surgieron complicaciones. Agar, al dar a luz, comenzó a sentirse superior.</p>
+
+<p>Empezó a tratar a Sara con desprecio, creando un ambiente de tensión y rivalidad dentro de la casa.</p>
+
+<p>Sara, quien había propuesto la unión entre Abraham y Agar, ahora se sentía traicionada y furiosa.</p>
+
+<p>Le culpó a Abraham la situación y exigió que lo resolviera.</p>
+
+<p>Abraham quedó atrapado entre las dos mujeres que amaba: Sara, su esposa legal, y Agar, la madre de su hijo.</p>
+
+<p>La situación llegó a un punto insostenible, y Sara insistió en que Agar fuera enviada al desierto con Ismael.</p>
+
+<p>Aunque reacio, Abraham accedió. En el desierto, Agar e Ismael estuvieron a punto de morir, pero Dios escuchó el llanto del niño.</p>
+
+<p>Él apareció a Agar y le hizo una promesa extraordinaria: Ismael sería padre de una gran nación.</p>
+
+<p>Así, Dios mostró Su misericordia, incluso frente a errores humanos.</p>
+
+<p>Años más tarde, algo extraordinario ocurrió. A pesar de su avanzada edad, Sara quedó embarazada y dio a luz un hijo, Isaac.</p>
+
+<p>Fue el cumplimiento de la promesa original de Dios. El nacimiento de Isaac trajo alegría y renovación a la familia de Abraham.</p>
+
+<p>Sin embargo, la llegada de Isaac también trajo nuevos conflictos. Ismael, ahora mayor, comenzó a burlarse de Isaac.</p>
+
+<p>La rivalidad entre los dos hermanos creció, alimentada por tensiones emocionales y diferencias de estatus dentro de la casa.</p>
+
+<p>La situación se volvió tan insostenible que Sara exigió que Ismael y Agar fueran nuevamente enviados al desierto.</p>
+<br><br>
+<p>Abraham, dividido entre el amor por sus dos hijos, siguió la orientación de Dios y permitió que Ismael y Agar partieran.</p>
+
+<p>Dios reafirmó su promesa a Abraham, diciendo que cuidaría de Ismael y lo convertiría en padre de una gran nación.</p>
+
+<p>Así, Ismael creció y se convirtió en el ancestro de los árabes, mientras que Isaac se convirtió en el ancestro de los hebreos, los israelitas.</p>
+
+<p>Esta división inicial entre los dos hermanos se ve como el inicio de un conflicto que persiste hasta hoy.</p>
+
+<p>Los descendientes de Ismael, representados por los musulmanes árabes, y los descendientes de Isaac, representados por los judíos, siguen envueltos en disputas marcadas por odio y rivalidad.</p>
+
+<p>El conflicto entre el Islam y el Judaísmo está explícitamente ligado a la historia de Ismael e Isaac, simbolizando la perpetuación de ciclos de dolor y resentimiento a través de las generaciones.</p>
+
+<p>La historia de Abraham, Ismael e Isaac sirve como un ejemplo poderoso de cómo las decisiones tomadas fuera del plan específico de Dios pueden generar consecuencias profundas y duraderas.</p>
+
+<p>El trauma emocional causado por rechazo y rivalidad ha cruzado siglos, perpetuando conflictos entre pueblos y naciones.</p>
+
+<p>Es una lección sobre los problemas generacionales — ciclos de dolor y resentimiento que siguen resonando a través de las generaciones, recordándonos la importancia de actuar con fe y sabiduría, incluso cuando las soluciones humanas parecen tentadoras.</p>
+
+<p>Pero hay algo aún más profundo en esta historia. Nos invita a reflexionar sobre nuestras propias vidas.</p>
+
+<p>¿Cuántas veces buscamos soluciones rápidas y humanas para problemas que podrían resolverse con paciencia y fe?</p>
+
+<p>¿Cuántas veces nuestras decisiones, aunque bien intencionadas, terminan causando consecuencias no deseadas que afectan no solo a nosotros, sino también a las generaciones futuras?</p>
+
+<p>La historia de Abraham nos enseña que los errores cometidos por nuestros ancestros — o por nosotros mismos — pueden dejar marcas profundas, pero también nos muestra que Dios es misericordioso y puede transformar incluso las situaciones más difíciles en bendiciones.</p>
+
+<p>Al observar la trayectoria de Ismael e Isaac, podemos ver cómo el orgullo, el rechazo y la rivalidad crean ciclos de dolor que se perpetúan por siglos.</p>
+
+<p>Ismael, aunque amado por Dios, creció con el trauma de haber sido rechazado por su padre y enviado al desierto.</p>
+
+<p>Ese sentimiento de abandono se reflejó en su descendencia, contribuyendo a la formación de una identidad que muchas veces se opuso a los descendientes de Isaac.</p>
+
+<p>Por otro lado, Isaac, el hijo de la promesa, creció rodeado de privilegios, pero también cargaba con la responsabilidad de continuar la línea elegida por Dios.</p>
+
+<p>Esta dualidad entre los dos hermanos refleja las complejidades de las relaciones humanas y los impactos duraderos de las decisiones que tomamos.</p>
+
+<p>La historia de Abraham, Ismael e Isaac también nos enseña sobre la importancia del perdón y la reconciliación.</p>
+
+<p>Aunque la Biblia no mencione explícitamente una reconciliación entre los dos hermanos, hay indicios de que se encontraron más tarde en la vida.</p>
+
+<p>Cuando Abraham murió, tanto Ismael como Isaac se reunieron para enterrar a su padre.</p>
+
+<p>Este momento de unidad, aunque breve, sugiere que es posible superar las heridas del pasado y buscar la paz.</p>
+
+<p>Finalmente, esta narrativa nos desafía a pensar sobre el papel que desempeñamos en nuestras familias y comunidades.</p>
+
+<p>Cada decisión que tomamos, cada palabra que decimos, puede tener un impacto duradero en las generaciones futuras.</p>
+<br>
+<p>Al mirar la historia de Abraham, somos recordados de que, incluso cuando fallamos, Dios puede redimir nuestras decisiones y transformar nuestros errores en oportunidades de crecimiento.</p>
+
+<p>Pero también somos llamados a actuar con sabiduría, confiando en el plan divino y evitando soluciones humanas que puedan causar más daño que beneficio.</p>`,
     },
     {
       slug: "finding-peace-in-chaos",
