@@ -19,84 +19,133 @@ const postsData = {
         "Learn about the biblical origins of the Arab-Jewish conflict, tracing back to Abraham's decisions and their lasting consequences.",
       tags: ["bible", "history", "conflict"],
       readingTime: 5,
-      content: `<blockquote>
+      content: `<!-- YouTube Video -->
+<div style="position:relative; padding-bottom:56.25%; margin-bottom:20px;">
+  <iframe 
+    src="https://www.youtube.com/embed/_twXZrjYIFo " 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    style="position:absolute; width:100%; height:100%; top:0; left:0;">
+  </iframe>
+</div>
+
+<br><br>
+
+<!-- Page content -->
+
 <p>Long ago, in an ancient world where divine promises shaped people's destinies, God made a covenant with a man named Abraham.</p>
-</blockquote>
+<br>
+<p>This covenant was not only for him, but for all generations to come. God told Abraham that his wife, Sarah, would have a son, and through this son, nations would be blessed.</p>
 
-<hr>
+<p>This promise was grand, full of hope and spiritual meaning. However, there was a big problem: Sarah was barren. In those days, the inability to bear children was seen as a personal, social, and even religious tragedy, since descendants were considered the continuation of family heritage and legacy.</p>
 
-<img src="/thumbnails/thumbnail-en.png" alt="ABRAHAM'S FAULT" style="width: 100%; height: auto;">
+<p>To deal with situations like this, there were ancient laws documented in texts such as the Nuzi Tablets, Eshnunna, and Alalakh.</p>
 
-<h2>Why Do Arabs and Jews Fight to This Day? The Biblical Story Behind the Conflict!</h2>
+<p>These laws regulated social and family practices, including solutions for childless couples.</p>
+<br>
+<p>If a woman could not conceive, the husband could have a child with a female servant or slave from the household, provided the wife agreed.</p>
 
-<p>Long ago, in an ancient world where divine promises shaped people's destinies, <strong>God made a covenant with a man named Abraham</strong>. This covenant was not just for him, but for all generations to come. God told Abraham that his wife, Sarah, would bear a son, and through that son blessed nations would arise.</p>
+<p>This child would be legally recognized as the wife’s own child, functioning almost like a modern-day "surrogate womb." Although it was a culturally accepted practice, it carried complex emotional and social implications.</p>
 
-<p>This promise was grand, full of hope and spiritual significance. However, there was one major problem: <em>Sarah was barren</em>. In those days, the inability to bear children was seen as a personal, social, and even religious tragedy, since descendants were considered the continuation of the family inheritance and legacy.</p>
+<p>Sarah, facing her own inability to conceive, suggested that Abraham have a child with Hagar, her Egyptian servant.</p>
 
-<h3>Ancient Laws and Human Solutions</h3>
+<p>Hagar had likely been acquired by Abraham during their stay in Egypt, when they faced difficulties and were received by the Pharaoh.</p>
 
-<p>To deal with situations like this, there were ancient laws documented in texts such as the <strong>Tablets of Nuzi, Eshnunna, and Alalakh</strong>. These laws regulated social and family practices, including solutions for childless couples.</p>
+<p>Sarah, perhaps moved by a desire to see God’s promise fulfilled or pressured by society to ensure an heir, took the initiative to offer her servant to her husband.</p>
 
-<p>If a woman was unable to conceive, the husband could have a child with a servant or slave in the household, provided the wife agreed. This child would be legally recognized as the wife's child, functioning almost like a modern-day <strong>"surrogate mother."</strong></p>
+<p>Abraham, perhaps eager or influenced by the pressure of the moment, accepted the suggestion. He sought a human solution before fully trusting in God's promise.</p>
 
-<h3>Sarah and Abraham's Decision</h3>
+<p>This decision by Abraham is viewed by scholars as a mistake — a “stumble.” Although it was legally and culturally acceptable at the time, it revealed a failure of faith.</p>
 
-<p>Sarah, unable to conceive, suggested that Abraham have a child with <strong>Hagar, her Egyptian servant</strong>. Hagar had probably been acquired by Abraham during his stay in Egypt, when they faced hardships and were welcomed by Pharaoh.</p>
+<p>Abraham acted like any ordinary man would, trying to solve the problem on his own. He momentarily forgot what God had said.</p>
 
-<p>Sarah, perhaps moved by a desire to see God's promise fulfilled or by social pressure to secure an heir, took the initiative to offer her servant to her husband. Abraham, perhaps anxious or influenced by the pressure of the moment, accepted the suggestion.</p>
+<p>This act symbolizes something deeper: the temptation to make decisions based on our own human logic instead of waiting for divine guidance.</p>
 
-<blockquote>
-<p>Abraham sought a human solution before fully trusting God's promise.</p>
-</blockquote>
+<p>Abraham had a child with Hagar, and this child was named Ishmael.</p>
+<br>
+<p>In the beginning, everything seemed resolved. Abraham finally had an heir, and God’s promise appeared to be fulfilled.</p>
 
-<h3>The Birth of Ishmael and Its Consequences</h3>
+<p>But soon complications arose. Hagar, upon giving birth, began to feel superior.</p>
 
-<p>Abraham had a son with Hagar, and this son was named <strong>Ishmael</strong>. At first, it seemed like everything was settled. Abraham finally had an heir, and God's promise seemed to be fulfilled.</p>
+<p>She started treating Sarah with contempt, creating an atmosphere of tension and rivalry within the household.</p>
 
-<p>But complications soon arose. Hagar, upon giving birth, began to feel superior. She began to treat Sarah with contempt, creating an atmosphere of tension and rivalry within the household.</p>
+<p>Sarah, who had originally suggested the union between Abraham and Hagar, now felt betrayed and furious.</p>
 
-<h3>The Fulfillment of the Original Promise</h3>
+<p>She blamed Abraham for the situation and demanded he resolve it.</p>
 
-<p>Years later, something extraordinary happened. Even in her old age, <strong>Sarah became pregnant and gave birth to a son, Isaac</strong>. It was the fulfillment of God's original promise. The birth of Isaac brought joy and renewal to Abraham's family.</p>
+<p>Abraham found himself caught between the two women he loved: Sarah, his legal wife, and Hagar, the mother of his child.</p>
 
-<p>However, Isaac's arrival also brought new conflicts. Ishmael, now older, began to mock Isaac. The rivalry between the two brothers grew, fueled by emotional tensions and differences in status within the household.</p>
+<p>The situation became unbearable, and Sarah insisted that Hagar be sent into the desert with Ishmael.</p>
 
-<h3>The Separation and Eternal Consequences</h3>
+<p>Although reluctant, Abraham agreed. In the desert, Hagar and Ishmael nearly died of thirst, but God heard the boy's cry.</p>
 
-<p>The situation became so untenable that Sarah demanded that Ishmael and Hagar be sent back into the wilderness. Abraham, torn between his love for his two sons, followed God's guidance and allowed Ishmael and Hagar to leave.</p>
+<p>He appeared to Hagar and made an extraordinary promise: Ishmael would become the father of a great nation.</p>
 
-<p>God reaffirmed his promise to Abraham, saying that he would take care of Ishmael and make him the father of a great nation. Thus:</p>
+<p>Thus, God honored His mercy, even in the face of human mistakes.</p>
 
-<ul>
-<li><strong>Ishmael</strong> grew up to become the ancestor of the <em>Arabs</em></li>
-<li><strong>Isaac</strong> became the ancestor of the <em>Hebrews, the Israelites</em></li>
-</ul>
+<p>Years later, something extraordinary happened. Despite her advanced age, Sarah became pregnant and gave birth to a son, Isaac.</p>
 
-<h3>The Conflict That Continues Today</h3>
+<p>It was the fulfillment of God’s original promise. Isaac’s birth brought joy and renewal to Abraham’s family.</p>
 
-<p>This initial division between the two brothers is seen as the beginning of a conflict that continues to this day. The descendants of Ishmael, represented by the Arab Muslims, and the descendants of Isaac, represented by the Jews, continue to be embroiled in disputes marked by hatred and rivalry.</p>
+<p>However, Isaac’s arrival also brought new conflicts. Ishmael, now older, began mocking Isaac.</p>
 
-<p>The conflict between Islam and Judaism is explicitly linked to the story of Ishmael and Isaac, symbolizing the perpetuation of cycles of pain and hurt through the generations.</p>
+<p>The rivalry between the two brothers grew, fueled by emotional tensions and differences in status within the household.</p>
 
-<h3>Lessons for Our Lives</h3>
+<p>The situation became so unbearable that Sarah demanded Ishmael and Hagar be sent into the desert once again.</p>
+<br><br>
+<p>Abraham, torn between love for both sons, followed God’s guidance and allowed Ishmael and Hagar to leave.</p>
 
-<p>The story of Abraham, Ishmael, and Isaac serves as a powerful example of how decisions made outside of God's specific plan can have profound and lasting consequences.</p>
+<p>God reaffirmed His promise to Abraham, saying He would care for Ishmael and make him the father of a great nation.</p>
 
-<p>It invites us to reflect on our own lives:</p>
+<p>So, Ishmael grew up to become the ancestor of the Arabs, while Isaac became the ancestor of the Hebrews, the Israelites.</p>
 
-<ul>
-<li>How often do we seek quick, human solutions to problems that could be solved with patience and faith?</li>
-<li>How often do our decisions, even well-intentioned ones, end up generating unintended consequences?</li>
-<li>How can we break cycles of pain and hurt in our families and communities?</li>
-</ul>
+<p>This initial division between the two brothers is seen as the beginning of a conflict that continues to this day.</p>
 
-<p>The story teaches us that the mistakes made by our ancestors – or by ourselves – can leave deep scars, but it also shows us that <strong>God is merciful</strong> and can transform even the most difficult situations into blessings.</p>
+<p>The descendants of Ishmael, represented by Arab Muslims, and the descendants of Isaac, represented by Jews, remain involved in disputes marked by hatred and rivalry.</p>
 
-<a href="https://youtu.be/_twXZrjYIFo?si=t2aInrRqy2IUjXOQ" target="_blank">
-  <img src="/thumbnails/thumbnail-en.png" alt="Video Thumbnail" style="width: 100%; height: auto; border-radius: 8px;">
-</a>
+<p>The conflict between Islam and Judaism is explicitly linked to the story of Ishmael and Isaac, symbolizing the perpetuation of cycles of pain and bitterness across generations.</p>
 
-<p><strong>Share this post with your friends and family!</strong></p>`,
+<p>The story of Abraham, Ishmael, and Isaac serves as a powerful example of how decisions made outside of God’s specific plan can lead to deep and lasting consequences.</p>
+
+<p>The emotional trauma caused by rejection and rivalry has spanned centuries, perpetuating conflicts among peoples and nations.</p>
+
+<p>It is a lesson about generational issues — cycles of pain and bitterness that echo through generations, reminding us of the importance of acting with faith and wisdom, even when human solutions seem tempting.</p>
+
+<p>But there is something even deeper in this story. It invites us to reflect on our own lives.</p>
+
+<p>How often do we seek quick, human solutions to problems that could be solved with patience and faith?</p>
+
+<p>How often do our decisions, even if well-intentioned, end up causing unintended consequences that affect not only us, but future generations?</p>
+
+<p>Abraham’s story teaches us that the mistakes made by our ancestors — or by ourselves — can leave deep marks, but it also shows us that God is merciful and can turn even the most difficult situations into blessings.</p>
+
+<p>By observing the paths of Ishmael and Isaac, we can see how pride, rejection, and rivalry create cycles of pain that last for centuries.</p>
+
+<p>Ishmael, although loved by God, grew up with the trauma of being rejected by his father and sent into the desert.</p>
+
+<p>This feeling of abandonment echoed in his descendants, contributing to the formation of an identity that often opposed the descendants of Isaac.</p>
+
+<p>On the other hand, Isaac, the child of the promise, grew up surrounded by privileges, yet he carried the responsibility of continuing the lineage chosen by God.</p>
+
+<p>This duality between the two brothers reflects the complexities of human relationships and the long-lasting impact of the choices we make.</p>
+
+<p>The story of Abraham, Ishmael, and Isaac also teaches us about the importance of forgiveness and reconciliation.</p>
+
+<p>Although the Bible does not explicitly mention a reconciliation between the two brothers, there are indications that they met later in life.</p>
+
+<p>When Abraham died, both Ishmael and Isaac gathered to bury their father.</p>
+
+<p>This moment of unity, though brief, suggests that it is possible to overcome past wounds and seek peace.</p>
+
+<p>Finally, this narrative challenges us to think about the role we play in our families and communities.</p>
+
+<p>Every decision we make, every word we speak, can have a lasting impact on future generations.</p>
+<br>
+<p>As we look at Abraham’s story, we are reminded that even when we fail, God can redeem our choices and transform our failures into opportunities for growth.</p>
+
+<p>But we are also called to act wisely, trusting in God's plan and avoiding human solutions that may cause more harm than good.</p>`,
     },
     {
       slug: "how-to-pray-like-jesus",
