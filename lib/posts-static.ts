@@ -333,7 +333,7 @@ const postsData = {
 
 <p>Há muito tempo, em um mundo antigo onde as promessas divinas moldavam o destino das pessoas, Deus fez uma aliança com um homem chamado Abraão.</p>
 <br>
-<a href="https://ibb.co/zVqMST9d"><img src="https://i.ibb.co/r2DjZR89/abraao-falando-com-deus.png" alt="abraao-falando-com-deus" border="0"></a><br /><a target='_blank' href='https://pt-br.imgbb.com/'>imagens do pt</a><br />
+<a href="https://ibb.co/zVqMST9d"><img src="https://i.ibb.co/zVqMST9d/abraao-falando-com-deus.png" alt="abraao-falando-com-deus" border="0"></a>
 <br>
 <p>Essa aliança não era apenas para ele, mas para todas as gerações que viriam depois. Deus disse a Abraão que sua esposa, Sara, teria um filho, e através desse filho surgiriam nações abençoadas.</p>
 
