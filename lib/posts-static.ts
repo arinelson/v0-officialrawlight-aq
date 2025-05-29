@@ -39,15 +39,12 @@ const postsData = {
 <br>
 <!-- Imagem responsiva -->
 <div style="position:relative; padding-bottom:56.25%; margin-bottom:20px;">
-  <img 
-    src="/why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict
-/abraao-falando-com-deus.jpg" 
-    alt="Descrição da imagem"
-    style="position:absolute; width:100%; height:100%; object-fit:cover; top:0; left:0;">
+  <img src="/why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict
+/abraao-falando-com-deus.jpg" alt="Descrição da imagem" style="position:absolute; width:100%; height:100%; object-fit:cover; top:0; left:0;">
 </div>
 <br>
 [IMAGE:/why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict
-/abraao-falando-com-deus.jpg:Alt text]
+/abraao-falando-com-deus.jpg Alt text: ]
 <br>
 <p>This covenant was not only for him, but for all generations to come. God told Abraham that his wife, Sarah, would have a son, and through this son, nations would be blessed.</p>
 
