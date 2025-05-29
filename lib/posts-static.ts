@@ -338,8 +338,6 @@ const postsData = {
 
 <p>Há muito tempo, em um mundo antigo onde as promessas divinas moldavam o destino das pessoas, Deus fez uma aliança com um homem chamado Abraão.</p>
 <br>
-<a href="https://ibb.co/zVqMST9d"><img src="https://i.ibb.co/zVqMST9d/abraao-falando-com-deus.png" alt="abraao-falando-com-deus" border="0"></a>
-<br>
 <p>Essa aliança não era apenas para ele, mas para todas as gerações que viriam depois. Deus disse a Abraão que sua esposa, Sara, teria um filho, e através desse filho surgiriam nações abençoadas.</p>
 
 <p>Essa promessa era grandiosa, cheia de esperança e significado espiritual. No entanto, havia um grande problema: Sara era estéril. Naquela época, a incapacidade de gerar filhos era vista como uma tragédia pessoal, social e até mesmo religiosa, pois os descendentes eram considerados a continuação da herança e do legado familiar.</p>
