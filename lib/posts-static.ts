@@ -1050,7 +1050,133 @@ const postsData = {
         "Erfahren Sie mehr über die biblischen Ursprünge des arabisch-jüdischen Konflikts, zurückgehend auf Abrahams Entscheidungen.",
       tags: ["bibel", "geschichte", "konflikt"],
       readingTime: 5,
-      content: `<h2>Warum kämpfen Araber und Juden bis heute?</h2><p>Eine biblische Geschichte über Abraham und die Folgen seiner Entscheidungen.</p><p><strong>Teilen Sie diesen Beitrag mit Ihren Freunden und Ihrer Familie!</strong></p>`,
+      content: `<!-- YouTube-Video -->
+<div style="position:relative; padding-bottom:56.25%; margin-bottom:20px;">
+  <iframe 
+    src="https://www.youtube.com/embed/lTtOVWAETxI " 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    style="position:absolute; width:100%; height:100%; top:0; left:0;">
+  </iframe>
+</div>
+
+<br><br>
+
+<!-- Seiteninhalt -->
+
+<p>Vor langer Zeit, in einer alten Welt, in der göttliche Versprechen das Schicksal der Menschen bestimmten, schloss Gott einen Bund mit einem Mann namens Abraham.</p>
+<br>
+<p>Dieser Bund war nicht nur für ihn bestimmt, sondern auch für alle kommenden Generationen. Gott sagte Abraham, dass seine Frau Sara ein Kind gebären würde, und durch dieses Kind würden gesegnete Nationen entstehen.</p>
+
+<p>Dieses Versprechen war groß, voll Hoffnung und geistiger Bedeutung. Doch es gab ein großes Problem: Sara war unfruchtbar. Zu dieser Zeit galt die Unfähigkeit, Kinder zu bekommen, als persönliche, soziale und sogar religiöse Tragödie, da Nachkommen als Fortführung des Erbes und der Familie angesehen wurden.</p>
+
+<p>Um solche Situationen zu regeln, existierten alte Gesetze, die in Texten wie den Tafeln von Nuzi, Eshnunna und Alalakh festgehalten waren.</p>
+
+<p>Diese Gesetze regelten soziale und familiäre Praktiken, einschließlich Lösungen für kinderlose Paare.</p>
+<br>
+<p>Wenn eine Frau kein Kind empfangen konnte, durfte der Ehemann mit einer Dienerin oder Sklavin aus dem Haushalt ein Kind haben, sofern die Ehefrau einverstanden war.</p>
+
+<p>Das Kind wurde rechtlich als ihr eigenes anerkannt und funktionierte fast wie eine moderne „Leihmutterschaft“. Obwohl diese Praxis kulturell akzeptiert war, brachte sie komplexe emotionale und soziale Folgen mit sich.</p>
+
+<p>Sara, aufgrund ihrer eigenen Unfruchtbarkeit, schlug vor, dass Abraham mit Hagar, ihrer ägyptischen Dienerin, ein Kind haben sollte.</p>
+
+<p>Hagar war vermutlich während ihres Aufenthalts in Ägypten erworben worden, als sie auf Schwierigkeiten stießen und vom Pharao empfangen wurden.</p>
+
+<p>Sara, vielleicht getrieben vom Wunsch, Gottes Versprechen erfüllt zu sehen, oder unter Druck der Gesellschaft, um einen Erben sicherzustellen, nahm die Initiative und bot ihrem Mann ihre Dienerin an.</p>
+
+<p>Abraham, möglicherweise ungeduldig oder vom Moment beeinflusst, akzeptierte den Vorschlag. Er suchte eine menschliche Lösung, bevor er vollständig auf Gottes Versprechen vertraute.</p>
+
+<p>Diese Entscheidung Abrahams wird von Gelehrten als Fehler, als „Ausrutscher“, angesehen. Obwohl sie damals rechtlich und kulturell akzeptabel war, zeigte sie einen Mangel an Glauben.</p>
+
+<p>Abraham handelte wie jeder gewöhnliche Mensch handeln würde – versuchte, das Problem selbst zu lösen. Er vergaß, wenn auch nur vorübergehend, was Gott ihm gesagt hatte.</p>
+
+<p>Diese Handlung symbolisiert etwas Tieferes: die Versuchung, Entscheidungen basierend auf menschlicher Logik zu treffen, anstatt auf göttliche Führung zu warten.</p>
+
+<p>Abraham hatte ein Kind mit Hagar, und dieses Kind wurde Ismael genannt.</p>
+<br>
+<p>Zuerst schien alles gelöst. Abraham hatte endlich einen Erben, und Gottes Versprechen schien sich zu erfüllen.</p>
+
+<p>Doch bald traten Komplikationen auf. Hagar fühlte sich nach der Geburt überlegen.</p>
+
+<p>Sie begann, Sara mit Verachtung zu behandeln, und schuf so eine Atmosphäre von Spannung und Rivalität im Haus.</p>
+
+<p>Sara, die ursprünglich die Vereinigung zwischen Abraham und Hagar vorgeschlagen hatte, fühlte sich nun betrogen und wütend.</p>
+
+<p>Sie machte Abraham für die Situation verantwortlich und forderte, dass er sie löste.</p>
+
+<p>Abraham befand sich zwischen den beiden Frauen, die er liebte: Sara, seiner rechtmäßigen Ehefrau, und Hagar, der Mutter seines Sohnes.</p>
+
+<p>Die Situation wurde unerträglich, und Sara bestand darauf, dass Hagar mit Ismael in die Wüste geschickt werden solle.</p>
+
+<p>Obwohl widerwillig, willigte Abraham ein. In der Wüste standen Hagar und Ismael kurz vor dem Tod, doch Gott hörte das Weinen des Kindes.</p>
+
+<p>Er erschien Hagar und gab ihr ein außergewöhnliches Versprechen: Ismael würde zum Vater einer großen Nation werden.</p>
+
+<p>So zeigte Gott seine Barmherzigkeit, selbst angesichts menschlicher Fehler.</p>
+
+<p>Jahre später geschah etwas Außergewöhnliches. Trotz ihres hohen Alters wurde Sara schwanger und gebar einen Sohn, Isaak.</p>
+
+<p>Es war die Erfüllung von Gottes ursprünglichem Versprechen. Die Geburt Isaaks brachte Freude und Erneuerung in Abrahams Familie.</p>
+
+<p>Doch Isaaks Ankunft brachte auch neue Konflikte mit sich. Ismael, nun älter, begann, sich über Isaak lustig zu machen.</p>
+
+<p>Der Zwist zwischen den Brüdern wuchs, befeuert durch emotionale Spannungen und Unterschiede im gesellschaftlichen Status innerhalb des Hauses.</p>
+
+<p>Die Situation wurde so unerträglich, dass Sara verlangte, Ismael und Hagar erneut in die Wüste zu schicken.</p>
+<br><br>
+<p>Abraham, zwischen der Liebe zu seinen beiden Söhnen zerrissen, folgte der Anleitung Gottes und erlaubte, dass Ismael und Hagar gingen.</p>
+
+<p>Gott bekräftigte sein Versprechen an Abraham und sagte, er werde sich um Ismael kümmern und ihn zum Vater einer großen Nation machen.</p>
+
+<p>So wuchs Ismael heran und wurde zum Ahnen der Araber, während Isaak zum Ahnen der Hebräer, der Israeliten, wurde.</p>
+
+<p>Diese erste Teilung zwischen den Brüdern gilt als Beginn eines Konflikts, der bis heute andauert.</p>
+
+<p>Die Nachkommen Ismaels, repräsentiert durch arabische Muslime, und die Nachkommen Isaaks, repräsentiert durch Juden, bleiben in Streitigkeiten verstrickt, geprägt von Hass und Rivalität.</p>
+
+<p>Der Konflikt zwischen Islam und Judentum ist direkt mit der Geschichte Ismaels und Isaaks verbunden und symbolisiert die fortwährende Wiederholung von Schmerz und Verbitterung über Generationen hinweg.</p>
+
+<p>Die Geschichte Abrahams, Ismaels und Isaaks ist ein mächtiges Beispiel dafür, wie Entscheidungen, die außerhalb von Gottes speziellem Plan getroffen werden, tiefe und dauerhafte Folgen haben können.</p>
+
+<p>Das emotionale Trauma durch Zurückweisung und Rivalität hat Jahrhunderte überdauert und Konflikte zwischen Völkern und Nationen fortgeführt.</p>
+
+<p>Sie ist eine Lehre über generationenübergreifende Probleme – Zyklen von Schmerz und Verbitterung, die durch die Epochen hallen und uns daran erinnern, wie wichtig es ist, mit Glauben und Weisheit zu handeln, selbst wenn menschliche Lösungen verlockend erscheinen.</p>
+
+<p>Doch es gibt noch etwas Tieferes in dieser Geschichte. Sie lädt uns dazu ein, über unser eigenes Leben nachzudenken.</p>
+
+<p>Wie oft suchen wir schnelle, menschliche Lösungen für Probleme, die mit Geduld und Glauben gelöst werden könnten?</p>
+
+<p>Wie oft führen unsere Entscheidungen, selbst wenn gut gemeint, zu ungewollten Folgen, die nicht nur uns selbst, sondern auch zukünftige Generationen betreffen?</p>
+
+<p>Die Geschichte Abrahams lehrt uns, dass die Fehler unserer Vorfahren – oder unsere eigenen – tiefe Spuren hinterlassen können, aber sie zeigt uns auch, dass Gott barmherzig ist und selbst die schwierigsten Situationen in Segnungen verwandeln kann.</p>
+
+<p>Wenn wir die Lebenswege Ismaels und Isaaks betrachten, erkennen wir, wie Stolz, Zurückweisung und Rivalität Schmerzenskreise erzeugen, die sich über Jahrhunderte hinziehen.</p>
+
+<p>Ismael, obwohl von Gott geliebt, wuchs mit dem Trauma auf, von seinem Vater zurückgewiesen und in die Wüste geschickt worden zu sein.</p>
+
+<p>Dieses Gefühl der Ausgestoßenheit prägte seine Nachkommen und trug zur Entwicklung einer Identität bei, die sich oft gegen die Nachkommen Isaaks wandte.</p>
+
+<p>Isaak hingegen, das Kind des göttlichen Versprechens, wuchs mit Privilegien auf, trug aber auch die Verantwortung, die von Gott erwählte Linie fortzusetzen.</p>
+
+<p>Diese Doppelnatur der Brüder spiegelt die Komplexität menschlicher Beziehungen und die langfristigen Auswirkungen der Entscheidungen wider, die wir treffen.</p>
+
+<p>Die Geschichte Abrahams, Ismaels und Isaaks lehrt uns auch die Bedeutung von Vergebung und Versöhnung.</p>
+
+<p>Obwohl die Bibel keine ausdrückliche Versöhnung zwischen den Brüdern beschreibt, gibt es Hinweise, dass sie sich später im Leben trafen.</p>
+
+<p>Als Abraham starb, versammelten sich sowohl Ismael als auch Isaak, um ihren Vater zu begraben.</p>
+
+<p>Dieser Moment der Einheit, wenn auch kurz, zeigt, dass es möglich ist, alte Wunden zu heilen und Frieden zu suchen.</p>
+
+<p>Schließlich fordert uns diese Erzählung heraus, über die Rolle nachzudenken, die wir in unseren Familien und Gemeinschaften spielen.</p>
+
+<p>Jede Entscheidung, die wir treffen, jedes Wort, das wir sprechen, kann langfristige Auswirkungen auf zukünftige Generationen haben.</p>
+<br>
+<p>Wenn wir die Geschichte Abrahams betrachten, werden wir daran erinnert, dass Gott, selbst wenn wir fehlschlagen, unsere Entscheidungen erlösen und unsere Fehler in Chancen zum Wachsen verwandeln kann.</p>
+
+<p>Doch wir sind auch aufgerufen, weise zu handeln, auf Gottes Plan zu vertrauen und menschliche Lösungen zu meiden, die mehr Schaden als Nutzen stiften können.</p>`,
     },
     {
       slug: "how-to-pray-like-jesus",
@@ -1249,7 +1375,134 @@ const postsData = {
       excerpt: "Alamin ang mga biblikal na pinagmulan ng Arab-Jewish conflict, bumabalik sa mga desisyon ni Abraham.",
       tags: ["bibliya", "kasaysayan", "konflito"],
       readingTime: 5,
-      content: `<h2>Bakit Nag-aaway pa rin ang mga Arabo at Hudyo Hanggang Ngayon?</h2><p>Isang biblikal na kuwento tungkol kay Abraham at ang mga kahihinatnan ng kanyang mga desisyon.</p><p><strong>Ibahagi ang post na ito sa inyong mga kaibigan at pamilya!</strong></p>`,
+      content: `
+<!-- Video sa YouTube -->
+<div style="position:relative; padding-bottom:56.25%; margin-bottom:20px;">
+  <iframe 
+    src="https://www.youtube.com/embed/5dntvELCDFo" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen
+    style="position:absolute; width:100%; height:100%; top:0; left:0;">
+  </iframe>
+</div>
+
+<br><br>
+
+<!-- Nilalaman ng pahina -->
+
+<p>Noong matagal na panahon, sa isang sinaunang mundo kung saan ang mga pangako ng Diyos ay naghubog ng kapalaran ng mga tao, gumawa ang Diyos ng tipan kasama si Abraham, isang lalaking napili Niya.</p>
+<br>
+<p>Hindi lamang para kay Abraham ang tipan na ito, kundi pati para sa lahat ng susunod na salinlahi. Sinabi ng Diyos kay Abraham na ang kanyang asawa, si Sara, ay magkakaroon ng anak na lalaki, at sa pamamagitan nito'y mapapalagyan ng biyaya ang maraming bansa.</p>
+
+<p>Ang pangakong ito ay malaki, puno ng pag-asa at espirituwal na kahulugan. Gayunpaman, may malaking problema: si Sara ay baog. Noong panahong iyon, ang hindi makapagka-anak ay itinuturing na personal, sosyal, at kahit ispiritwal na trahedya, dahil ang mga anak ang itinuturing na pagpapatuloy ng yaman at kalakasan ng pamilya.</p>
+
+<p>Upang harapin ang ganitong uri ng sitwasyon, mayroong sinaunang batas na nakatala sa mga teksto tulad ng Mga Tala ng Nuzi, Eshnunna, at Alalakh.</p>
+
+<p>Ang mga batas na ito ay nagsasaayos ng mga kaugalian at pamilyar na gawain, kabilang ang mga solusyon para sa mga mag-asawa na walang anak.</p>
+<br>
+<p>Kung ang isang babae ay hindi makabuo ng anak, ang kanyang asawa ay maaaring magkaroon ng anak sa pamamagitan ng kanyang aliping babae, basta payag ang asawa.</p>
+
+<p>Ang anak ay ituturing na legal na anak ng asawa, halos parang modernong "babaeng nagbuntis bilang kapalit". Bagamat ito ay isang kulturally tinatanggap na gawain, ito ay may komplikadong emosyonal at sosyal na implikasyon.</p>
+
+<p>Dahil hindi makapagka-anak, inimbitahan ni Sara si Abraham na magkaroon ng anak kay Hagar, ang kanilang aliping babae mula sa Ehipto.</p>
+
+<p>Maaaring nakamtan si Hagar noong kanilang pananatili sa Ehipto, kung saan sila tumanggap ng tulong mula sa Faraon nang sila’y nahihirapan.</p>
+
+<p>Si Sara, marahil ay pinagpipilitan ng hangarin na makita ang pangako ng Diyos na natutupad o napi-pressure ng lipunan upang tiyakin ang isang tagapagmana, ay unang nagmungkahi kay Abraham na samahan ang kanyang alipin.</p>
+
+<p>Si Abraham, marahil ay nagmamadali o naapektuhan ng presyon ng sandali, ay sumang-ayon sa mungkahi. Hinanap niya ang solusyon ng tao bago lubos na ipagkatiwala ang pangako ng Diyos.</p>
+
+<p>Itinuturing ng mga iskolar ang desisyong ito ni Abraham bilang isang pagkakamali — isang “pagkubli.” Bagamat legal at tinatanggap noon, ipinakita nito ang kanyang kawalan ng pananalig.</p>
+
+<p>Kumilos si Abraham tulad ng karaniwang tao — sinubukan niyang lutasin ang problema sa sarili niyang paraan. Sandaling nakalimot siya sa sinabi ng Diyos.</p>
+
+<p>Ang kilos na ito ay sumisimbolo ng isang mas malalim na bagay: ang tukso na gumawa ng desisyon batay sa ating sariling lohika, imbes na hintayin ang gabay ng Diyos.</p>
+
+<p>Nagkaroon si Abraham ng anak kay Hagar, at tinawag nilang Ismael ang sanggol.</p>
+<br>
+<p>Noong una, tila nasagot na lahat. Mayroon na siyang tagapagmana, at tila natutupad na ang pangako ng Diyos.</p>
+
+<p>Pero dumating ang mga komplikasyon. Si Hagar, nang manganak, ay naramdaman na siya’y higit sa iba.</p>
+
+<p>Simulan niyang hinayaang lumitaw ang pagmamaliit kay Sara, nagbunga ito ng tensyon at rivalidad sa bahay.</p>
+
+<p>Si Sara, na mismong nag-utos ng ugnayan ni Abraham at Hagar, ay naramdaman na nadaya at nagalit.</p>
+
+<p>Sinisisi niya si Abraham sa sitwasyon at inutusan siyang ayusin ito.</p>
+
+<p>Nakaharap si Abraham sa dalawang babae na mahal niya: si Sara, ang kanyang lehitimong asawa, at si Hagar, ang ina ng kanyang anak.</p>
+
+<p>Umabot sa puntong hindi na makayanan ang sitwasyon, at inutos ni Sara na ipadala si Hagar at si Ismael sa disyerto.</p>
+
+<p>Bakit pa? Dahil sa disyerto, halos namatay sina Hagar at Ismael, pero naririnig ng Diyos ang iyak ng bata.</p>
+
+<p>Nagpakita ang Diyos kay Hagar at ginawa ang isang diwa-karaniwang pangako: si Ismael ay magiging ama ng isang malaking bansa.</p>
+
+<p>Ganito pinasiyahan ng Diyos ang Kanyang awa, kahit sa gitna ng mga pagkakamaling gawa ng tao.</p>
+
+<p>Mga taon mamaya, naganap ang isang kahanga-hangang bagay. Sa kabila ng kanilang gulang, nabuntis si Sara at nagbigay-buhay kay Isaac.</p>
+
+<p>Ito ang pagtupad sa orihinal na pangako ng Diyos. Ang kapanganakan ni Isaac ay nagdala ng saya at pagbabago sa pamilya ni Abraham.</p>
+
+<p>Gayunpaman, ang pagdating ni Isaac ay nagdala rin ng bagong alitan. Si Ismael, na ngayon ay lumaki, ay nagsimulang tumawa kay Isaac.</p>
+
+<p>Ang pakikipagtunggali ng dalawang kapatid ay umusbong, pinasigla ng mga emosyonal na tension at pagkakaiba ng katayuan sa loob ng bahay.</p>
+
+<p>Ang sitwasyon ay naging napakahirap kaya’t iniutos ni Sara na muli silang ipadala ni Ismael at Hagar sa disyerto.</p>
+<br><br>
+<p>Si Abraham, na nahahati sa pag-ibig sa kanyang dalawang anak, sumunod sa gabay ng Diyos at pinayagan si Ismael at Hagar na umalis.</p>
+
+<p>Binawi ng Diyos ang Kanyang pangako kay Abraham, na sasakyan niya si Ismael at gagawin siyang ama ng isang dakilang bansa.</p>
+
+<p>Kaya't lumaki si Ismael at naging ninuno ng mga Arabo, habang si Isaac ay naging ninuno ng mga Hebreo, ng mga Israelita.</p>
+
+<p>Ang unang dibisyon sa pagitan ng dalawang kapatid ay itinuturing na simula ng isang kontrahan na nananatili pa rin hanggang ngayon.</p>
+
+<p>Ang mga supling ni Ismael, kinatawan ng mga Muslim na Arabo, at ang mga supling ni Isaac, kinatawan ng mga Hudyo, ay patuloy na nakikipaglaban sa isa't isa, na puno ng galit at tunggalian.</p>
+
+<p>Ang giyera sa pagitan ng Islam at Hudyo ay direktang nauugnay sa kuwento ni Ismael at Isaac, na sumisimbolo sa pag-uulit ng sakit at sama ng loob sa kabuuan ng mga henerasyon.</p>
+
+<p>Ang kuwento ni Abraham, Ismael, at Isaac ay isang makapangyarihang halimbawa kung paano ang mga desisyon na ginawa palayo sa plano ng Diyos ay maaaring magdulot ng malalim at matagalang epekto.</p>
+
+<p>Ang emosyonal na trauma dulot ng pagtanggi at tunggalian ay tumagal ng siglo, nagpalit ng labanan sa pagitan ng mga bansa at bayan.</p>
+
+<p>Ito ay isang aral tungkol sa mga suliranin sa henerasyon – mga uglong ng sakit at sama ng loob na patuloy na umaalingawngaw sa mga henerasyon, na nagpapaalala sa atin ng kahalagahan ng pagkilos na may pananalig at karunungan, kahit na ang mga solusyon ng tao ay tila nakakaakit.</p>
+
+<p>Ngunit may mas malalim pang bagay sa kuwentong ito. Ito ay nag-aanyaya sa atin na mag-isip tungkol sa ating buhay.</p>
+
+<p>Ilang beses bang hinanap natin ang mabilis at pantao na solusyon sa mga problema na maaring malulutas sa pamamagitan ng pasensya at pananalig?</p>
+
+<p>Ilang beses bang ang ating mga desisyon, kahit manampalataya, ay nagdulot ng hindi inaasahang epekto na nakakaapekto hindi lamang sa atin, kundi pati sa mga susunod na henerasyon?</p>
+
+<p>Ang kuwento ni Abraham ay nagtuturo na ang mga pagkakamali ng ating mga ninuno – o maging sa atin mismo – ay maaaring mag-iwan ng malalim na marka, ngunit ipinapakita din nito na ang Diyos ay mapagmahal at maaaring baguhin ang pinakamasakit na sitwasyon sa biyaya.</p>
+
+<p>Ang pagtingin sa landas ni Ismael at Isaac ay nagpapakita kung paano ang pagmamataas, pagtanggi, at tunggalian ay lumilikha ng mga uglong ng sakit na tumatagal ng libu-libong taon.</p>
+
+<p>Si Ismael, bagamat minahal ng Diyos, ay lumaki na may trauma na siya’y itinapon ng kanyang ama papunta sa disyerto.</p>
+
+<p>Ang damdaming ito ng pagkakait ay kumalat sa kanyang supling, nagbigay-daan sa pagbuo ng isang identidad na madalas na nagsalungat sa mga supling ni Isaac.</p>
+
+<p>Kay Isaac naman, ang anak ng pangako, ay lumaki na may mga pribilehiyo, ngunit dala-dala rin ang responsibilidad na magpatuloy sa linya na pinili ng Diyos.</p>
+
+<p>Ang dualidad sa pagitan ng dalawang kapatid ay sumisimbolo sa kumplikadong relasyon ng tao at sa matagalang epekto ng mga desisyon na ginawa natin.</p>
+
+<p>Ang kuwento ni Abraham, Ismael, at Isaac ay nagtuturo din sa amin ng kahalagahan ng pagpapatawad at pagkakaisa.</p>
+
+<p>Bagamat ang Bibliya ay hindi eksaktong nagsasabi ng pagkakaisa sa pagitan ng dalawang kapatid, may ilang indikasyon na sila’y nagkita-kita sa huling bahagi ng kanilang buhay.</p>
+
+<p>Kapag namatay si Abraham, pareho sina Ismael at Isaac na nagtipon upang ilibing ang kanilang ama.</p>
+
+<p>Ang sandaling ito ng pagkakaisa, kahit pansamantala lang, ay nagpapakita na posible ang paglutas ng mga sugat sa nakaraan at hanapin ang kapayapaan.</p>
+
+<p>Sa wakas, ang kuwentong ito ay nagtataas sa amin na mag-isip tungkol sa papel na ginagampanan natin sa ating pamilya at komunidad.</p>
+
+<p>Bawat desisyon na ginagawa natin, bawat salitang binibigkas natin, ay maaaring magkaroon ng matagalang epekto sa susunod na henerasyon.</p>
+<br>
+<p>Ang kuwento ni Abraham ay nagpaalala sa amin na kahit pa tayo’y nagkamali, maaaring iligtas ng Diyos ang ating mga desisyon at baguhin ang ating mga kamalian sa pagkakataon para sa pag-unlad.</p>
+
+<p>Pero tayo’y tinatawag ding kumilos nang may karunungan, na umaasa sa plano ng Diyos at iwinawaksi ang mga solusyon ng tao na maaaring magdulot ng higit pang pinsala kaysa benepisyo.</p>`,
     },
     {
       slug: "how-to-pray-like-jesus",
