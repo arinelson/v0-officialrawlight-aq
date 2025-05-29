@@ -150,6 +150,19 @@ const postsData = {
 
 <p>Finally, this narrative challenges us to think about the role we play in our families and communities.</p>
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8357117612559558"
+     crossorigin="anonymous"></script>
+<!-- BlocoDeAnuncio1 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8357117612559558"
+     data-ad-slot="5096456536"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 <p>Every decision we make, every word we speak, can have a lasting impact on future generations.</p>
 <br>
 <p>As we look at Abraham’s story, we are reminded that even when we fail, God can redeem our choices and transform our failures into opportunities for growth.</p>
