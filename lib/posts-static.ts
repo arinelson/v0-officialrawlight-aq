@@ -324,10 +324,10 @@ const postsData = {
 <p>Há muito tempo, em um mundo antigo onde as promessas divinas moldavam o destino das pessoas, Deus fez uma aliança com um homem chamado Abraão.</p>
 </blockquote>
 
-<hr>
+<br>
 
 <img src="/why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict
-/abraao-falando-com-deus.jpg" alt="Abraão Falando Com Deus" style="width: 100%; height: auto;">
+/abraao-falando-com-deus.jpg" alt="Abraão Falando Com Deus" style="width: 100%; height: auto;"/>
 
 <h2>Por Que Árabes e Judeus Brigam Até Hoje? A História Bíblica por Trás do Conflito</h2>
 
