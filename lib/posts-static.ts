@@ -38,7 +38,7 @@ const postsData = {
 <p>Long ago, in an ancient world where divine promises shaped people's destinies, God made a covenant with a man named Abraham.</p>
 <br>
 <!-- Imagem responsiva -->
-<div style="position:relative; padding-bottom:56.25%; margin-bottom:20px; background:#f0f0f0;">
+<div style="position:relative; padding-bottom:56.25%; margin-bottom:20px;">
   <img 
     src="/why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict
 /abraao-falando-com-deus.jpg" 
