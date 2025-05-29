@@ -43,9 +43,6 @@ const postsData = {
 /abraao-falando-com-deus.jpg" alt="Descrição da imagem" style="position:absolute; width:100%; height:100%; object-fit:cover; top:0; left:0;">
 </div>
 <br>
-[IMAGE:/why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict
-/abraao-falando-com-deus.jpg Alt text: ]
-<br>
 <p>This covenant was not only for him, but for all generations to come. God told Abraham that his wife, Sarah, would have a son, and through this son, nations would be blessed.</p>
 
 <p>This promise was grand, full of hope and spiritual meaning. However, there was a big problem: Sarah was barren. In those days, the inability to bear children was seen as a personal, social, and even religious tragedy, since descendants were considered the continuation of family heritage and legacy.</p>
