@@ -321,7 +321,7 @@ const postsData = {
       tags: ["bíblia", "história", "conflito"],
       readingTime: 5,
       content: `<!-- Vídeo do YouTube -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N81AgWn2_tw " 
+<iframe width="1080" height="720" src="https://www.youtube.com/embed/N81AgWn2_tw " 
         title="YouTube video player" frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowfullscreen>
