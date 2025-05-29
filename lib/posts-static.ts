@@ -326,7 +326,8 @@ const postsData = {
 
 <hr>
 
-<img src="/thumbnails/thumbnail-pt.png" alt="CULPA DE ABRAÃO" style="width: 100%; height: auto;">
+<img src="/why-do-arabs-and-jews-fight-to-this-day-the-biblical-story-behind-the-conflict
+/abraao-falando-com-deus.jpg" alt="Abraão Falando Com Deus" style="width: 100%; height: auto;">
 
 <h2>Por Que Árabes e Judeus Brigam Até Hoje? A História Bíblica por Trás do Conflito</h2>
 
