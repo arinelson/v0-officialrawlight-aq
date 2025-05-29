@@ -342,7 +342,7 @@ const postsData = {
 <p>Para lidar com situações como essa, existiam leis antigas documentadas em textos como as Tábuas de Nuzi, Eshnunna e Alalakh.</p>
 
 <p>Essas leis regulamentavam práticas sociais e familiares, incluindo soluções para casais sem filhos.</p>
-<br><br>
+<br>
 <p>Se uma mulher não podia conceber, o marido poderia ter um filho com uma serva ou escrava da casa, desde que a esposa concordasse.</p>
 
 <p>Esse filho seria legalmente reconhecido como filho da esposa, funcionando quase como uma "barriga de aluguel" moderna. Embora fosse uma prática aceita e culturalmente válida, ela carregava implicações emocionais e sociais complexas.</p>
@@ -362,7 +362,7 @@ const postsData = {
 <p>Esse ato simboliza algo mais profundo: a tentação de tomar decisões baseadas em nossa lógica humana, em vez de esperar pela orientação divina.</p>
 
 <p>Abraão teve um filho com Agar, e esse filho foi chamado de Ismael.</p>
-<br><br>
+<br>
 <p>No início, parecia que tudo estava resolvido. Abraão finalmente tinha um herdeiro, e a promessa de Deus parecia estar sendo cumprida.</p>
 
 <p>Mas logo surgiram complicações. Agar, ao dar à luz, começou a se sentir superior.</p>
@@ -440,7 +440,7 @@ const postsData = {
 <p>Por fim, essa narrativa nos desafia a pensar sobre o papel que desempenhamos em nossas famílias e comunidades.</p>
 
 <p>Cada decisão que tomamos, cada palavra que dizemos, pode ter um impacto duradouro nas gerações futuras.</p>
-<br><br>
+<br>
 <p> Ao olharmos para a história de Abraão, somos lembrados de que, mesmo quando erramos, Deus pode redimir nossas escolhas e transformar nossas falhas em oportunidades de crescimento.</p>
 
 <p>Mas também somos chamados a agir com sabedoria, confiando no plano divino e evitando soluções humanas que podem causar mais danos do que benefícios.</p>
