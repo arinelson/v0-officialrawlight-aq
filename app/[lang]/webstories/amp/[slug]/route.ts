@@ -132,6 +132,7 @@ function generateAMPWebStory(post: Post, slides: any[], lang: string): string {
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+  <script async custom-element="amp-auto-ads" src="https://cdn.ampproject.org/v0/amp-auto-ads-0.1.js"></script>
   
   <!-- Metadata -->
   <meta name="description" content="${post.excerpt}">
@@ -146,6 +147,7 @@ function generateAMPWebStory(post: Post, slides: any[], lang: string): string {
   <meta name="web-stories-replace-head-end">
 </head>
 <body>
+  <amp-auto-ads type="adsense" data-ad-client="ca-pub-8357117612559558"></amp-auto-ads>
   <amp-story standalone
     title="${post.title}"
     publisher="LUZ CRUA"

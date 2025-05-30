@@ -1,12 +1,22 @@
+import type React from "react"
 import { getDictionary } from "@/lib/dictionaries"
 import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/posts-static"
-import { formatDate } from "@/lib/utils"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import ShareButtons from "@/components/share-buttons"
 import PostCard from "@/components/post-card"
 import TagList from "@/components/tag-list"
 import Image from "next/image"
+
+// Local formatDate function
+function formatDate(dateString: string, locale: string): string {
+  const date = new Date(dateString)
+  return date.toLocaleDateString(locale === "pt" ? "pt-BR" : locale, {
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  })
+}
 
 export async function generateMetadata({
   params,
@@ -113,7 +123,45 @@ export default async function PostPage({ params }: { params: { lang: string; slu
       </div>
 
       <div className="prose dark:prose-invert max-w-none mb-12">
-        <div dangerouslySetInnerHTML={{ __html: post.content }} />
+        <div
+          dangerouslySetInnerHTML={{ __html: post.content }}
+          className="
+    [&_img]:w-full 
+    [&_img]:h-auto 
+    [&_img]:rounded-lg 
+    [&_img]:my-6 
+    [&_img]:shadow-md 
+    [&_img]:object-cover 
+    [&_img]:max-w-full
+    [&_img]:block
+    [&_img]:mx-auto
+    [&_img]:opacity-100
+    [&_img]:visible
+    [&_img]:display-block
+    [&_div]:w-full
+    [&_div]:max-w-full
+    [&_div]:mx-auto
+    [&_div]:my-6
+    [&_div[style*='position:relative']]:w-full
+    [&_div[style*='position:relative']]:max-w-4xl
+    [&_div[style*='position:relative']]:mx-auto
+    [&_div[style*='position:relative']]:rounded-lg
+    [&_div[style*='position:relative']]:overflow-hidden
+    [&_div[style*='position:relative']]:shadow-md
+    [&_div[style*='position:relative']_img]:w-full
+    [&_div[style*='position:relative']_img]:h-full
+    [&_div[style*='position:relative']_img]:object-cover
+    [&_div[style*='position:relative']_img]:position-absolute
+    [&_div[style*='position:relative']_img]:top-0
+    [&_div[style*='position:relative']_img]:left-0
+  "
+          style={
+            {
+              "--tw-prose-body": "inherit",
+              "--tw-prose-headings": "inherit",
+            } as React.CSSProperties
+          }
+        />
       </div>
 
       <ShareButtons url={postUrl} title={post.title} dict={dict} lang={params.lang} />
